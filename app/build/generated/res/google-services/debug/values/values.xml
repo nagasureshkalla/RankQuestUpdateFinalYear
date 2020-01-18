@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">494877392760-5id4bm949d549bb9o539lefjoipg4ths.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://rankquest-a08b5.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">494877392760</string>
+    <string name="google_api_key" translatable="false">AIzaSyCHxhISTS8IRWENt29nnVeByBGZl4rW9qA</string>
+    <string name="google_app_id" translatable="false">1:494877392760:android:d583b1dd302f8ad8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCHxhISTS8IRWENt29nnVeByBGZl4rW9qA</string>
+    <string name="google_storage_bucket" translatable="false">rankquest-a08b5.appspot.com</string>
+    <string name="project_id" translatable="false">rankquest-a08b5</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="190dp"
+        android:id="@+id/nested_recycle_shimmer"
+        app:shimmer_colored="true"
+android:layout_gravity="center"
+
+        app:shimmer_highlight_color="@color/green"
+        app:shimmer_duration="2000"
+        android:layout_height="100dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="190dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp"
+            app:cardCornerRadius="10dp" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="188dp"
+        android:layout_gravity="center"
+        android:layout_height="98dp"
+        app:rippleColor="@color/cutup"
+        style="@style/Mainactivity"
+        app:strokeWidth="@dimen/cardstatRadius"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/exan_name"
+            android:fontFamily="times-new-roman"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="EAMCET"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            style="@style/textView"/>
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</FrameLayout>

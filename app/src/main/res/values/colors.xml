@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#F7541E</color>
+    <color name="colorPrimary">#f57c00</color>
+    <color name="colorAccent">#EC1A1A</color>
+
+
+    <color name="showmoeColor">#FFFFFF</color>
+    <color name="showmoreShadowColor">#FFBF40</color>
+
+
+    <color name="lightsilver">#D3D3D6</color>
+    <color name="black">#111111</color>
+    <color name="good">#e0e0e0</color>
+    <color name="cutdown">#ff9800</color>
+    <color name="cutup">#f57c00</color>
+    <color name="myinterest">#c5f1e7e2</color>
+    <color name="newone">#eeecec</color>
+    <color name="newone1">#f9f5f5</color>
+    <color name="head">#f1efef</color>
+    <color name="headm">#f9f2f2</color>
+    <color name="headf">#fcfafa</color>
+    <color name="headc">#e3ffffff</color>
+    <color name="silver">#eeeeee</color>
+    <color name="yellow">#FFFF99</color>
+    <color name="green">#1cce6b</color>
+    <color name="red">#F10D0D</color>
+    <color name="gold">#FFD700</color>
+    <color name="orange">#df4c16</color>
+    <color name="blue">#1e90ff</color>
+    <color name="white">#FFFFFF</color>
+<color name="mesilver">#eeeeee</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="meorange">#f27712</color>
+    <color name="tabs">#ff9800</color>
+    <color name="editTextColor" xmlns:tools="http://schemas.android.com/tools" tools:override="true">#EC1A1A</color>
+
+</resources>

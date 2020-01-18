@@ -1,0 +1,346 @@
+<resources>
+    <string name="app_name">Rank Quest</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="EAMCET">EAMCET</string>
+
+
+    <string-array name="exams">
+        <item>EAMCET</item>
+        <item>POLYCET</item>
+        <item>PGCET</item>
+        <item>ECET</item>
+
+    </string-array>
+
+
+    <string-array name="clglist">
+        <item>clg1</item>
+        <item>clg2</item>
+        <item>clg3</item>
+    </string-array>
+    <string-array name="allcolleges">
+        <item>all clg1</item>
+        <item>all clg2</item>
+        <item>all clg3</item>
+    </string-array>
+    <string-array name="cast">
+        <item>OC</item>
+        <item>BC-A</item>
+        <item>BC-B</item>
+        <item>BC-C</item>
+        <item>BC-D</item>
+        <item>BC-E</item>
+        <item>SC</item>
+        <item>ST</item>
+    </string-array>
+    <string-array name="counselling">
+        <item>Counselling-1</item>
+        <item>Counselling-2</item>
+        <item>Counselling-3</item>
+    </string-array>
+    <!-- <string name="android">Android</string>
+    <string name="androiddevelop">P.UdaySaiKumar from Computer Science Of Engineering</string>
+    <string name="database">Database</string>
+    <string name="datadevelop">K.KarthikBharadwaj from Computer Science Of Engineering</string>
+    <string name="mentor">Mentor</string>
+    <string name="mentorName">Kiran from Computer Science Of Engineering</string>
+    <string name="description">Description.........</string>-->
+    <string-array name="branches">
+
+        <item>AGR</item>>
+        <item>ASE</item>
+        <item>AUT</item>
+        <item>BIO</item>
+        <item>CEE</item>
+        <item>CER</item>
+        <item>CHE</item>
+        <item>CIT</item>
+        <item>CIV</item>
+        <item>CPE</item>
+        <item>CSE</item>
+        <item>CSS</item>
+        <item>DRG</item>
+        <item>ECE</item>
+        <item>ECM</item>
+        <item>EEE</item>
+        <item>EIE</item>
+        <item>FDS</item>
+        <item>GIN</item>
+        <item>INF</item>
+        <item>IST</item>
+        <item>MEC</item>
+        <item>MET</item>
+        <item>MIN</item>
+        <item>MMT</item>
+        <item>NAM</item>
+        <item>PET</item>
+        <item>PHM</item>
+        <item>PWR</item>
+    </string-array>
+    <string-array name="preference">
+        <item>Rank</item>
+        <item>Branch</item>
+        <item>College</item>
+    </string-array>
+    <string name="phno">enter valid mobile number</string>
+    <string name="bug">Bug Report</string>
+    <string name="bugname">write bug here </string>
+    <string name="improvement">Want Any Improvements</string>
+    <string name="imp">write improvements here</string>
+    <string name="rating">RateMyApp</string>
+    <string name="submit">Submit</string>
+    <string-array name="weblinks">
+        <item>Eamcet</item>
+        <item>APSCHE</item>
+        <item>RedAnts</item>
+        <item>Sasi</item>
+    </string-array>
+    <string-array name="links">
+        <item>https://apeamcet.nic.in</item>
+        <item>http://www.apsche.org/apsche_new/</item>
+        <item>http://www.redants.info</item>
+        <item>http://www.sasi.ac.in</item>
+
+    </string-array>
+
+    <string name="develop">Developed by:</string>
+    <string name="mentor">Mentor by:</string>
+    <string name="guided">Guided by:</string>
+    <string name="promote">Promoted by:</string>       <!--\n\nMr. N.Vamsi Krishna-->
+    <string name="dname">Mr. P.Uday Sai Kumar\n\nMr. K.Karthik Bharadhwaj\n\nComputer Science and Engineering\nSasi Institute of Technology and Enginering \nTadepalligudem, West Godavari Dt, \nAndhra Pradesh</string>
+    <string name="dname2">Mr K.Karthik Bharadhwaj,Computer
+Science and Engineering Dept,\nemail: karthik.bharadhwaj1998@gmail.com \n\nMr Vamsi Krishna,Computer Science And Engineering Dept,\nemail:vamsi8979@gmail.com
+    </string>
+    <string name="mname">Prof P.Kiran Kumar, Computer Science and Engineering\n\nProf K.Subhash Bhagavan, Computer Science and Engineering\n\nMr. M.Narendra Krishna, Vice-Chairman, SASI Educational Society</string>
+    <string name="gname">Mr. M.Narendra Krishna, Vice-Chairman, SASI Educational Society</string>
+    <string name="pname">Sasi Institute of Technology and
+Engineering, West Godavari Dt, AP, INDIA</string>
+    <!--<string name="dname">Mr P.Uday Sai Kumar,Computer Science And Engineering Dept,\nemail: uforUSK@gmail.com\n\nMr K.Karthik Bharadhwaj,Computer
+Science And Engineering Dept,\nemail: karthik.bharadhwaj1998@gmail.com\n\nMr Vamsi,Computer Science And Engineering Dept,\nemail:vamsi8979@gmail.com</string>
+    <string name="dname2">Mr K.Karthik Bharadhwaj,Computer
+Science And Engineering Dept,\nemail: karthik.bharadhwaj1998@gmail.com \n\nMr Vamsi Krishna,Computer Science And Engineering Dept,\nemail:vamsi8979@gmail.com
+    </string>
+    <string name="mname">Prof P.Kiran kumar,Computer
+Science And Engineering,\nemail:kiran@sasi.ac.in</string>
+    <string name="gname">MR M.Narendra Krishna,Vice
+ChairMan,SASI Educational Society,\nemail:mekanaren@gmail.com</string>
+    <string name="pname">Sasi Institute of Technology And
+Engineering,WestGodavari dist,AP,INDIA</string>-->
+    <!--<string name="cl1p1">1. AP EAMCET-2017 Rank Card4.S.S.C or its equivalent Marks memo,\n5.VI to Inter Study Certificate,\n6.Residence Certificate (in case where the candidate has no institutionalized education),\n7.Residence Certificate of either of the parents in A.P. for 10 years in case of non-local candidates,\n8.Income Certificate issued after 01.01.2017,\n9.Aadhar Card,\n10.Caste Certificate issued by the competent authority \n11.PH/CAP/NCC/Sports/Minority Certificate if applicable.
+    </string>-->
+    <string name="cl">All original certificates and 2 sets of Xerox copies like:</string>
+    <string name="cl1p1">1. AP EAMCET Rank Card</string>
+    <string name="cl1p2">2.AP EAMCET Hall Ticket</string>
+    <string name="cl1p3">3.Intermediate Memo of Marks-cum-Pass Certificate</string>
+    <string name="cl1p4">4.S.S.C or its equivalent Marks memo</string>
+    <string name="cl1p5">5.VI to Inter Study Certificate</string>
+    <string name="cl1p6">6.Residence Certificate (in case where the candidate has no institutionalized education)</string>
+    <string name="cl1p7">7.Residence Certificate of either of the parents in A.P. for 10 years in case of non-local candidates</string>
+    <string name="cl1p8">8.Income Certificate issued after 01.01.2018</string>
+    <string name="cl1p9">9.Aadhar Card</string>
+    <string name="cl1p10">10.Caste Certificate issued by the competent authority</string>
+    <string name="cl1p11">11.PH/CAP/NCC/Sports/Minority Certificate if applicable</string>
+    <string name="cl2">Certificates to be produced by PH/CAP/NCC/Sports/Minority Candidates:
+    </string>
+    <string name="cl2p1">1.PH-Certificate issued by District Medical Board. Candidates with 40% and above disability are only eligible</string>
+    <!-- <string name="cl3">1.PH-Certificate issued by District Medical Board. Candidates with 40% and above disability are only eligible.\n2.CAP- Certificate issued by ZillaSainik Welfare Board (In case of Ex-Service men).\n3.Identity card and Discharge book for verification.\n4.Candidates whose parents are domicile of Andhra Pradesh are only eligible to be considered under “CAP” Category.
+    </string>-->
+
+    <string name="cl2p2">2.CAP- Certificate issued by ZillaSainik Welfare Board (In case of Ex-Service men)</string>
+    <string name="cl2p3">3.Identity card and Discharge book for verification</string>
+    <string name="cl2p4">4.Candidates whose parents are domicile of Andhra Pradesh are only eligible to be considered under “CAP” Category</string>
+    <string name="cl4">NCC and Sports:
+    </string>
+    <string name="cl5">To produce Original Certificates issued by the competent authorities.
+    </string>
+    <string name="cl6">Minorities:
+    </string>
+    <string name="cl7">SSC TC containing Minority status or Certificate from the Head Master.
+    </string>
+    <string name="cl8">Anglo-Indian:
+    </string>
+    <string name="cl9">A Certificate issued by Tahsildar of their place of Residence.
+    </string>
+    <string-array name="branch">
+        <item>ECE-Electronics And Communication Engineering</item>
+        <item>CSE-Computer Science And Engineering</item>
+        <item>MEC-Mechanical Engineering</item>
+        <item>EEE-Electrical And Electronics Engineering</item>
+        <item>CIV-Civil Engineering</item>
+        <item>INF-Information Technology</item>
+        <item>AGR-Agricultural Engineering</item>
+        <item>CHE-Chemical Engineering</item>
+        <item>PHM-B.Pharamacy</item>
+        <item>EIE-Electronics And Instrumentation Engineering</item>
+        <item>PET-Petroleum Engineering</item>
+        <item>CSS-Computer Science And System Engineering</item>
+        <item>CIT-Computer Information Technology And Engineering</item>
+        <item>AUT-Automobile Engineering</item>
+        <item>CPE-Chemical Petro Engineering</item>
+        <item>MET-Metallurgical Engineering</item>
+        <item>MIN-Mining Engineering</item>
+        <item>DRG-Dairying Engineering</item>
+        <item>ASE-Aerospace Engineering</item>
+        <item>ECM-Electronics And Computer Engineering</item>
+        <item>GIN-Geo Informatics Engineering</item>
+        <item>IST-Instrumentation Engineering Technology</item>
+        <item>NAM-Naval Architecture And Marine Engineering</item>
+        <item>MMT-Metallurgy And Material Technology And Engineering</item>
+        <item>PWR-Power Engineering</item>
+        <item>FDS-Food Science Engineering</item>
+        <item>BIO-Bio Technology And Engineering</item>
+        <item>CEE-Civil Environmental Engineering</item>
+        <item>CER-Ceramic Engineering</item>
+    </string-array>
+    <string name="sf">SF:SeatsFilled</string>
+    <string name="sa">SA:SeatsAvailable</string>
+    <string name="percent">PER:Percentage Filled</string>
+    <string name="counceling1">AP EAMCET OC/ BC/ SC/ ST/ Minority Counselling Centers</string>
+    <string-array name="centers">
+        <!-- <item>Government Polytechnic, Srikakulam.</item>
+        <item>M.R.A.G.R. Govt. Polytechnic, Vizianagaram.</item>
+        <item>Government Polytechnic, Vizag.</item>
+        <item>Govt. Institute of Chemical Technology, Vizag.</item>
+        <item>A U COUNSELLING CENTER, OPP: PLATINUM JUBILEE GUEST HOUSE, NEAR DISTANCE EDUCATION, VIZAG.</item>
+        <item>Government Polytechnic, Narsipatnam, Vizag Dist.</item>
+        <item>Andhra Polytechnic, Kakinada.</item>
+        <item>Govt. Polytechnic – Women, Kakinada.</item>
+        <item>JNT University, Kakinada.</item>
+        <item>G. M.R. Polytechnic, Bommuru, Rajahmundry.</item>
+        <item>S.M.V.M. Polytechnic, Tanuku, W.G. Dist.</item>
+        <item>SMTB Seetha Polytechnic, Bhimavaram, W.G.Dist.</item>
+        <item>St.Theresa Autonomous Coll for Women, Eluru, W.G.Dist.</item>
+        <item>Government Polytechnic, Vijayawada.</item>
+        <item>Andhra Loyola College, Vijayawada.</item>
+        <item>SRR and CVR Govt Degree College, Vijayawada.</item>
+        <item>Govt. Polytechnic Women, Gujjanagulla, Guntur.</item>
+        <item>MBTS Govt. Polytechnic, Nallapadu, Guntur.</item>
+        <item>Govt Degree College for women, Guntur.</item>
+        <item>Acharya Nagarjuna University, Guntur.</item>
+        <item>D.A. Govt. Polytechnic, Ongole.</item>
+        <item>Acharya Nagarjuna University Campus, Ongole.</item>
+        <item>Govt. Polytechnic – Women, Dargamitta, Nellore.</item>
+        <item>Govt. Polytechnic for Boys, Nellore.</item>
+        <item>S.V. Government Polytechnic, Tirupathi.</item>
+        <item>S.V. Arts College (TTD), Balaji Nagar, Tirupati.</item>
+        <item>Govt. Arts and Science Degree College, Chittoor.</item>
+        <item>(ST)Government Polytechnic – Women, Kadapa.</item>
+        <item>(ST)Yogi Vemana University, Kadapa.</item>
+        <item>(ST)YSR Engineering College, Proddatur, Kadapa Dist.</item>
+        <item>(ST)Government Polytechnic, Anantapur.</item>
+        <item>(ST)S.K. University, Ananthapur.</item>
+        <item>(ST)Sri G. Pulla Reddy Govt. Polytechnic, Kurnool.</item>
+        <item>(ST)Rayalaseema University, Kurnool.</item>
+        <item>(ST)E.S.C. Govt. Polytechnic, Nandyal, Kurnool Dist</item>
+        <item>(ST)Government Polytechnic, Srikakulam.</item>
+        <item>(ST)M.R.A.G.R. Govt. Polytechnic, Vizianagaram.</item>
+        <item>(ST)Government Polytechnic, Vizag.</item>
+        <item>(ST)Andhra Polytechnic, Kakinada.</item>
+        <item>(ST)S.M.V.M. Polytechnic, Tanuku, W.G. Dist.</item>
+        <item>(ST)Andhra Loyola College, Vijayawada.</item>
+        <item>(ST)Govt. Polytechnic –women, Gujjanagulla, Guntur.</item>
+        <item>(ST)D.A. Govt. Polytechnic, Ongole.</item>
+        <item>(ST)Govt. Polytechnic – Women, Dargamitta, Nellore.</item>
+        <item>(ST)S.V. Government Polytechnic, Tirupathi.</item>
+        <item>(ST)Govt Polytechnic – Women, Kadapa.</item>
+        <item>(ST)Govt Polytechnic, Anantapur.</item>
+        <item>(ST)Sri G. Pulla Reddy Govt. Polytechnic, Kurnool.</item>-->
+        <item>(ST)Govt Polytechnic, Anantapur.</item>
+        <item>(ST)Government Polytechnic, Anantapur.</item>
+        <item>(ST)S.K. University, Ananthapur.</item>
+        <item>Govt. Arts and Science Degree College, Chittoor.</item>
+        <item>Govt. Polytechnic Women, Gujjanagulla, Guntur.</item>
+        <item>MBTS Govt. Polytechnic, Nallapadu, Guntur.</item>
+        <item>(ST)Govt. Polytechnic–women, Gujjanagulla, Guntur.</item>
+        <item>Govt Degree College for women, Guntur.</item>
+        <item>Acharya Nagarjuna University, Guntur.</item>
+        <item>(ST)Govt Polytechnic – Women, Kadapa.</item>
+        <item>Andhra Polytechnic, Kakinada.</item>
+        <item>Govt. Polytechnic – Women, Kakinada.</item>
+        <item>JNT University, Kakinada.</item>
+        <item>(ST)Andhra Polytechnic, Kakinada.</item>
+        <item>(ST)Government Polytechnic – Women, Kadapa.</item>
+        <item>(ST)Yogi Vemana University, Kadapa.</item>
+        <item>(ST)YSR Engineering College, Proddatur, Kadapa</item>
+        <item>(ST)Sri G. Pulla Reddy Govt. Polytechnic, Kurnool.</item>
+        <item>(ST)Sri G. Pulla Reddy Govt. Polytechnic, Kurnool.</item>
+        <item>(ST)Rayalaseema University, Kurnool.</item>
+        <item>(ST)E.S.C. Govt. Polytechnic, Nandyal, Kurnool Dist</item>
+        <item>(ST)Govt. Polytechnic – Women, Dargamitta, Nellore.</item>
+        <item>Govt. Polytechnic – Women, Dargamitta, Nellore.</item>
+        <item>Govt. Polytechnic for Boys, Nellore.</item>
+        <item>D.A. Govt. Polytechnic, Ongole.</item>
+        <item>Acharya Nagarjuna University Campus, Ongole.</item>
+        <item>(ST)D.A. Govt. Polytechnic, Ongole.</item>
+        <item>G. M.R. Polytechnic, Bommuru, Rajahmundry.</item>
+        <item>Government Polytechnic, Srikakulam.</item>
+        <item>(ST)Government Polytechnic, Srikakulam.</item>
+        <item>S.V. Government Polytechnic, Tirupathi.</item>
+        <item>S.V. Arts College (TTD), Balaji Nagar, Tirupathi.</item>
+        <item>(ST)S.V. Government Polytechnic, Tirupathi.</item>
+        <item>M.R.A.G.R. Govt. Polytechnic, Vizianagaram.</item>
+        <item>Government Polytechnic, Vizag.</item>
+        <item>Govt. Institute of Chemical Technology, Vizag.</item>
+        <item>A U COUNSELLING CENTER, OPP: PLATINUM JUBILEE GUEST HOUSE, NEAR DISTANCE EDUCATION, VIZAG.</item>
+        <item>Government Polytechnic, Narsipatnam, Vizag Dist.</item>
+        <item>Government Polytechnic, Vijayawada.</item>
+        <item>Andhra Loyola College, Vijayawada.</item>
+        <item>SRR and CVR Govt Degree College, Vijayawada.</item>
+        <item>(ST)Andhra Loyola College, Vijayawada.</item>
+        <item>(ST)M.R.A.G.R. Govt. Polytechnic, Vizianagaram.</item>
+        <item>(ST)Government Polytechnic, Vizag.</item>
+        <item>S.M.V.M. Polytechnic, Tanuku, W.G. Dist.</item>
+        <item>SMTB Seetha Polytechnic, Bhimavaram, W.G.Dist.</item>
+        <item>St.Theresa Autonomous Coll for Women, Eluru, W.G.Dist.</item>
+        <item>(ST)S.M.V.M. Polytechnic, Tanuku, W.G. Dist.</item>
+    </string-array>
+
+    <string name="icet">Icet</string>
+
+    <string name="ecet">Ecet</string>
+
+    <string name="pgcet">Pgcet</string>
+
+    <string name="eamcet">Eamcet</string>
+
+    <string name="polycet">Polycet</string>
+
+    <string name="share">Share</string>
+
+    <string name="feedback">Feedback</string>
+
+    <string name="developers">Developers</string>
+
+    <string name="websites">Websites</string>
+
+    <string name="name">Mr. K.Naga Suresh\n\nMr. P.Uday Sai Kumar\n\nMr. K.Karthik Bharadhwaj\n\nMr.V.YuvaKishore\n\nComputer Science and Engineering\nSasi Institute of Technology and Enginering \nTadepalligudem, West Godavari Dt, \nAndhra Pradesh</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="abouteamcet">
+   Engineering Agricultural and Medical Common Entrance Test, commonly called as EAMCET, is an entrance examination required for admission to some engineering and medical colleges in the states of Andhra Pradesh and Telangana, India. Many other colleges offering graduation courses like BDS, B.Pharm., BSc., Pharm.D., B.E, B. Tech, etc. require qualification in this exam.</string>
+
+    <string name="aboutpgecet">AP PGECET is Andhra Pradesh State Level Common Entrance Test for admission into the Post Graduate Courses in Engineering, Technology, Pharmacy  (ME / M.Tech./ M.Pharmacy ), Graduate level Pharm-D. JNTU Kakinada on behalf of A.P. State Council of Higher Education (APSCHE) and the Government of A.P will conduct the APPGECET Every Year.</string>
+    <string name="aboutEcet">Andhra Pradesh Engineering Common Entrance Test (AP ECET) is conducted by JNTUA, Ananthapuramu on behalf of Andhra Pradesh State Council of Higher Education (APSCHE). The exam is a gateway for Diploma holders of Engineering Technology/ Pharmacy and BSc Graduates to seek admission under the lateral entry scheme to the 2nd year of BE/ BTech/ BPharmacy Programmes offered at Universities and AICTE/PCI approved Institutions in the state of Andhra Pradesh.</string>
+    <string name="aboutPolycet">Andhra Pradesh Polytechnic Common Entrance Test (AP POLYCET) is a common entrance exam in the state level conducted by State Board of Technical Education and Training (SBTET), AP. This entrance exam is conducted for admission into Engineering and Non-Engineering diploma programs which are offered by various polytechnic colleges in the Andhra Pradesh state.</string>
+    <string name="show_more">Show More</string>
+    <!--ADs-->
+
+
+    <string name="selectBranches">Select less than 7 branches</string>
+    <string name="selectColleges">Select less than 8 colleges</string>
+
+    <!-- Admob Banner id's-->
+
+    <string name="banner_id_home_page">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="feedback_admob_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="websites_admob_id">ca-app-pub-3940256099942544/6300978111</string>
+
+
+</resources>

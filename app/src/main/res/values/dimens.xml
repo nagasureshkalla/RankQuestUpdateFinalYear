@@ -1,0 +1,50 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+    <dimen name="fastscroll__bubble_corner">20dp</dimen>
+    <dimen name="fastscroll__bubble_size">50dp</dimen>
+    <dimen name="fastscroll__handle_corner">3dp</dimen>
+    <dimen name="fastscroll__handle_height">30dp</dimen>
+    <dimen name="fastscroll__handle_width">6dp</dimen>
+    <dimen name="fastscroll__handle_inset">9dp</dimen>
+    <dimen name="fastscroll__handle_clickable_width">24dp</dimen>
+    <dimen name="fastscroll__handle_padding">2dp</dimen>
+
+
+
+
+
+
+    <dimen name="fastscroller_handle_corner">20dp</dimen>
+    <dimen name="fastscroller_handle_size">50dp</dimen>
+    <dimen name="fastscroller_reack_corner">3dp</dimen>
+    <dimen name="fastscroller_track_height">30dp</dimen>
+    <dimen name="fastscroller_track_width">6dp</dimen>
+    <dimen name="fastscroller_track_padding">2dp</dimen>
+
+
+    <dimen name="cardElivation">4dp</dimen>
+
+    <dimen name="fast_scroll_overlay_text_size">50dp</dimen>
+
+
+    <dimen name="examCardRadius">7dp</dimen>
+    <dimen name="collegesCardRadius">7dp</dimen>
+    <dimen name="editext">1dp</dimen>
+
+
+    <dimen name="cardstatRadius">0.8dp</dimen>
+
+
+    <dimen name="layoutmargin">2dp</dimen>
+
+
+    <dimen name="mainPageTextSize">25sp</dimen>
+    <dimen name="mainPageLogowidth">60dp</dimen>
+    <dimen name="mainPagelogoHeight">50dp</dimen>
+</resources>
+

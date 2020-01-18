@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "494877392760",
+    "firebase_url": "https://rankquest-a08b5.firebaseio.com",
+    "project_id": "rankquest-a08b5",
+    "storage_bucket": "rankquest-a08b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494877392760:android:d583b1dd302f8ad8",
+        "android_client_info": {
+          "package_name": "com.redants.rankquest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494877392760-u1nmu2ap5mvai9ipvbutnnk49c6ogtq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.redants.rankquest",
+            "certificate_hash": "b3c59826b6005f64f306ae7fa344fbac5d61de9a"
+          }
+        },
+        {
+          "client_id": "494877392760-5id4bm949d549bb9o539lefjoipg4ths.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHxhISTS8IRWENt29nnVeByBGZl4rW9qA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494877392760-5id4bm949d549bb9o539lefjoipg4ths.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7470227253711247~4089135355"
+    }
+  ],
+  "configuration_version": "1"
+}

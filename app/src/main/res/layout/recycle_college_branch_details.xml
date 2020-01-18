@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:clickable="true"
+        android:focusable="true"
+        style="@style/Mainactivity"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        app:strokeColor="@color/colorPrimaryDark"
+        app:strokeWidth="0.8dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="9dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="@dimen/examCardRadius"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/silver"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not Available"
+                android:id="@+id/branch_name"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginBottom="0.5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/open_sans"
+                android:textColor="#EC1111"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black_overlay"
+                android:stretchColumns="*"
+                android:shrinkColumns="*">
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/branchs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:text="Category"
+                        android:textColor="@color/colorPrimary"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/open"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:fontFamily="serif"
+                        android:padding="5dp"
+                        android:text="MOpen"
+                        android:maxLines="1"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/close"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:text="MClose"
+                        android:maxLines="1"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/openf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:fontFamily="serif"
+                        android:padding="5dp"
+                        android:text="FOpen"
+                        android:maxLines="1"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/closef"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:padding="5dp"
+                        android:text="FClose"
+                        android:maxLines="1"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/oc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:text="OC"
+                        android:maxLines="1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/oco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/occ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="0.5dp"
+                        android:padding="5dp"
+                        android:text="CSE"
+
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/ocof"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/occf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+
+                        android:text="CSE"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/bca"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="BC-A"
+                        android:maxLines="1"
+                        android:layout_marginRight="0.5dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="CSE"
+
+                        android:layout_marginRight="0.5dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcac"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcaof"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="5dp"
+                        android:text="CSE"
+                        android:layout_marginRight="0.5dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcacf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/bcb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="BC-B"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcbo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcbc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcbof"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcbcf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/bcc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:maxLines="1"
+                        android:text="BC-C"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bccc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bccof"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcccf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/bcd"
+                        android:layout_width="60dp"
+                        android:maxLines="1"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:text="BC-D"
+
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcdo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcdc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+
+                        android:text="CSE"
+
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcdof"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcdcf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+
+                        android:text="CSE"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/bce"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:maxLines="1"
+                        android:layout_marginLeft="1dp"
+                        android:text="BC-E"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bceo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcec"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bceof"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bcecf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sc"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:maxLines="1"
+                        android:layout_marginLeft="0.5dp"
+                        android:text="SC"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/sco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="0.5dp"
+                        android:padding="5dp"
+
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/scc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/scof"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/sccf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/st"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:maxLines="1"
+                        android:text="ST"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/sto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:id="@+id/stc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="CSE"
+                        android:layout_marginRight="0.5dp"
+
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/stof"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:id="@+id/stcf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:text="CSE"
+                        android:textSize="16sp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</ScrollView>
+
+</RelativeLayout>

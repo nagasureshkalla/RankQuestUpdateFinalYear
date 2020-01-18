@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentsExams.EAMCET.Fragment_Checklist">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:isScrollContainer="true"
+            android:visibility="visible"
+            style="@style/Widget.MaterialComponents.TabLayout"
+            android:id="@+id/checklistTabs"
+            android:layout_height="wrap_content">
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:id="@+id/checklistFrag"
+                android:isScrollContainer="true"
+                android:textAlignment="center"
+                android:visibility="visible"
+                android:layout_height="wrap_content"
+                android:text="CheckList"/>
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:id="@+id/reportingFrag"
+                android:visibility="visible"
+                android:layout_height="wrap_content"
+                android:text="Reporting Centers"/>
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+
+            android:id="@+id/chechlistViewpager"
+            android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
+    </LinearLayout>
+
+</FrameLayout>

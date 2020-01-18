@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.redants.rankquest"
+    android:versionCode="8"
+    android:versionName="1.8" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="RankQuest"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.admin.data.examPolycet.Polycet_Statastics_Graphs" />
+        <activity android:name="com.example.admin.data.examPgecet.Pgcet_Statastics_Graphs" />
+        <activity android:name="com.example.admin.data.examEcet.Ecet_Statastics_Graphs" />
+        <activity android:name="com.example.admin.data.Homepage.Nit" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1002768150287472~3177562999" />
+
+        <activity
+            android:name="com.example.admin.data.Homepage.SplashScreen"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.admin.data.Homepage.MainActivity"
+            android:configChanges="orientation"
+            android:icon="@drawable/ic_action_action_search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.Homepage.Eamcet"
+            android:label="EAMCET"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.admin.data.Homepage.Polycet"
+            android:label="POLYCET"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.admin.data.Homepage.Icet"
+            android:label="ICET"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.admin.data.Homepage.Ecet"
+            android:label="ECET"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.admin.data.Homepage.Pgcet"
+            android:label="PGECET"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.admin.data.Homepage.Developers"
+            android:label="Developers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.Homepage.Feedback"
+            android:label="Feedback"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.Homepage.Websites"
+            android:label="Websites"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examEamcet.Eamcet_Cutoff_Result"
+            android:label="EAMCET Cutoff"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examPgecet.Pgcet_Colleges_Details"
+            android:label="College Information"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examEamcet.Eamcet_Colleges_Details"
+            android:label="College Information"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examEamcet.Select"
+            android:label="Select Branches"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examEamcet.Cutoff_Select_Colleges"
+            android:label="Select Colleges"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.Homepage.Login"
+            android:label="Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin.data.Homepage.Register"
+            android:label="Registration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.Homepage.Survey"
+            android:label="Survey "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.Homepage.SurveyViewDetails"
+            android:label="Survey Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examPolycet.Polcet_Colleges_Details"
+            android:label="College Information"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examPolycet.SelectBranchesPolycet"
+            android:label="Select Branches"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examPolycet.Cutoff_Select_Colleges_Polycet"
+            android:label="Select Colleges"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examPolycet.Polycet_Cutoff_Result"
+            android:label="POLYCET Cutoff"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examPgecet.SelectBranchesPgcet"
+            android:label="Select Branches"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examPgecet.Cutoff_Select_Colleges_Pgcet"
+            android:label="Select Colleges"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examPgecet.Pgcet_Cutoff_Result"
+            android:label="PGECET Cutoff "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examEamcet.Emcet_Statastics_Graphs"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examEcet.Ecet_Colleges_Details"
+            android:label="College Information"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examEcet.SelectBranchesEcet"
+            android:label="Select Branches"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examEcet.Cutoff_Select_Colleges_Ecet"
+            android:label="Select Colleges"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.admin.data.examEcet.Ecet_Cutoff_Result"
+            android:label="ECET Cutoff"
+            android:screenOrientation="portrait" />
+        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <provider
+            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+            android:authorities="com.redants.rankquest.mobileadsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.redants.rankquest.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="progress">
+        <item name="colorAccent">#F89C12</item>
+        <item name="android:indeterminateDrawable">@drawable/progresses</item>
+    </style>
+
+
+    <!--Buttons-->
+    <style name="buttonBorder" parent="Widget.MaterialComponents.Button">
+        <item name="rippleColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+    <style name="BrandButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/red</item>
+        <item name="rippleColor">@color/green</item>
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="cornerRadius">15dp</item>
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+
+
+    <!--card-->
+    <style name="CardBaground" parent="Widget.MaterialComponents.CardView">
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="Mainactivity" parent="Widget.MaterialComponents.CardView">
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="cardElevation">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginEnd">7dp</item>
+        <item name="android:layout_marginStart">7dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:strokeColor">@color/black_overlay</item>
+        <item name="android:strokeWidth">@dimen/cardstatRadius</item>
+    </style>
+
+    <style name="cardstat" parent="Widget.MaterialComponents.CardView">
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="android:strokeWidth">@dimen/cardstatRadius</item>
+        <item name="android:strokeColor">@color/orange</item>
+        <item name="cardElevation">10dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+
+    </style>
+
+    <style name="card" parent="Widget.MaterialComponents.CardView">
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:strokeWidth">@dimen/cardstatRadius</item>
+        <item name="cardElevation">10dp</item>
+        <item name="android:strokeColor">@color/orange</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+
+<!--Edit Text Input Layout-->
+
+    <style name="EditLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textColorHint">@color/orange</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="boxStrokeColor">@color/editTextColor</item>
+        <item name="boxStrokeWidth">@dimen/editext</item>
+        <item name="hintTextColor">@color/orange</item>
+    </style>
+
+    <style name="TextInputEditTextTheme" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:strokeColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/cardElivation</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_color</item>
+    </style>
+
+    <style name="layout" parent="Theme.MaterialComponents.Light">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <!-- Text -->
+
+    <style name="textView" parent="Widget.AppCompat.ActionButton">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:color">@color/cutup</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+
+
+</resources>

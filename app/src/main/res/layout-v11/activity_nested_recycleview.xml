@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+    <yanzhikai.textpath.SyncTextPathView
+        android:layout_width="match_parent"
+        android:id="@+id/activity_title"
+        android:layout_marginStart="10dp"
+        android:layout_height="wrap_content"
+        app:text="nothing"
+        app:duration="4000"
+        app:paintStrokeColor="@color/colorPrimary"
+        app:pathStrokeColor="@android:color/holo_green_dark"
+        app:pathStrokeWidth="1dp"
+        app:paintStrokeWidth="1dp"
+        app:textSize="20sp"
+        app:autoStart="true" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:reverseLayout="true"
+                android:id="@+id/nested_activity_recycleview"/>
+
+
+
+</LinearLayout>
