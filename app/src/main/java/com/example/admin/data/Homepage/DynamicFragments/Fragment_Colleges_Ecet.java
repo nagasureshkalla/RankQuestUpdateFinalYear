@@ -126,6 +126,11 @@ public class Fragment_Colleges_Ecet extends Fragment {
                     p.setVisibility(View.INVISIBLE);
                     c.setVisibility(View.VISIBLE);
                     recyclerVie.setVisibility(View.VISIBLE);
+                    for (CollegeDetails v:colg
+                         ) {
+                        Log.d("Name",v.getName());
+
+                    }
                     Collections.sort(colg);
                     HashMap<String, Integer> map = calculateIndexesForName(colg);
                     adapter = new CollegeAdapter(colg,map, R.layout.recyclecolleges, new CollegeAdapter.OnItemClick() {

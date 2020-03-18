@@ -7,7 +7,7 @@
 
 
     <com.facebook.shimmer.ShimmerFrameLayout
-        android:layout_width="190dp"
+        android:layout_width="170dp"
         android:id="@+id/nested_recycle_shimmer"
         app:shimmer_colored="true"
 android:layout_gravity="center"
@@ -17,14 +17,14 @@ android:layout_gravity="center"
         android:layout_height="100dp">
 
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="190dp"
+            android:layout_width="170dp"
             android:layout_gravity="center"
             android:layout_height="100dp"
             app:cardCornerRadius="10dp" />
     </com.facebook.shimmer.ShimmerFrameLayout>
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="188dp"
+        android:layout_width="168dp"
         android:layout_gravity="center"
         android:layout_height="98dp"
         app:rippleColor="@color/cutup"

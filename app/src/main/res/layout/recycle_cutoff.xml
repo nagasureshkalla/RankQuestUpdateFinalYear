@@ -26,7 +26,7 @@
 
             android:clickable="true"
             android:focusable="true"
-            app:strokeColor="@color/colorPrimary"
+            app:strokeColor="@color/black_overlay"
             app:strokeWidth="@dimen/cardstatRadius"
             style="@style/Mainactivity"
             android:layout_marginBottom="1dp"

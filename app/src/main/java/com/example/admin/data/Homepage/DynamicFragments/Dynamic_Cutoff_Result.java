@@ -100,7 +100,12 @@ public class Dynamic_Cutoff_Result extends AppCompatActivity implements AdapterV
         d =i.getStringArrayExtra("selectedItems");
         c=i.getStringArrayExtra("selectedColleges");
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        try {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
+        catch (Exception e){
+
+        }
 
         showlayout=findViewById(R.id.showlayout);
         showmoreProgress=findViewById(R.id.showmoreProgress);

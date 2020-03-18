@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "S:\\SITE SERVICES\\RankQuest_App-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "S:\\RANKQUEST\\RankQuest_App-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\dc58e37f353f7048c9b1ffa7bc544646\\material-1.2.0-alpha03\\res\\values-small-v4\\values-small-v4.xml",

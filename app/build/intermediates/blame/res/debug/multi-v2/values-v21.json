@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "S:\\SITE SERVICES\\RankQuest_App-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "S:\\RANKQUEST\\RankQuest_App-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\23baf930038f8870db0ab6d6750c22e8\\appcompat-1.2.0-alpha01\\res\\values-v21\\values-v21.xml",
@@ -61,7 +61,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\aeffea0750c5e7b68376fc0a96671b02\\jetified-materialsearchview-1.4.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\9b4e5739e1876e691e920d43704de857\\jetified-materialsearchview-1.4.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

@@ -11,6 +11,7 @@ import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -162,6 +163,8 @@ public class MainActivity extends AppCompatActivity implements Serializable {
 
                     RecyclerView recyclerView = (RecyclerView) findViewById(R.id.activity_recycle);
                     recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
+                    //GridLayoutManager gridLayoutManager = new GridLayoutManager(getApplicationContext(),2);
+                   // recyclerView.setLayoutManager(gridLayoutManager);
 
                     Activity_Adapter adapter = new Activity_Adapter(hash_Set,exam_name_mainPageList,new Nested_Activity_Adapter.OnItemClick(){
                         @Override

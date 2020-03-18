@@ -31,8 +31,9 @@
             app:cardCornerRadius="7dp"
             android:clickable="true"
             android:focusable="true"
-            app:strokeColor="@color/colorPrimary"
+            app:strokeColor="@color/black_overlay"
             app:strokeWidth="@dimen/cardstatRadius"
+            android:layout_marginBottom="0dp"
             style="@style/Mainactivity"
 
             android:foreground="?android:attr/selectableItemBackground"

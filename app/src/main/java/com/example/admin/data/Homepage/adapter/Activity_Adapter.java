@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -59,7 +60,6 @@ public class Activity_Adapter extends RecyclerView.Adapter<Activity_Adapter.MyVi
         this.click=click;
         this.modelList = moviesList;
         this.imageList1=list1;
-
         viewPool=new RecyclerView.RecycledViewPool();
     }
 
@@ -97,7 +97,8 @@ public class Activity_Adapter extends RecyclerView.Adapter<Activity_Adapter.MyVi
             Log.d("Exam in Recycle ",list.getExam_name());
         }
 
-        holder.nested_recycleview.setLayoutManager(new LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, true));
+        holder.nested_recycleview.setLayoutManager(new GridLayoutManager(context,2));
+        //holder.nested_recycleview.setLayoutManager(new LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, true));
 
         Nested_Activity_Adapter nested_activity_adapter=new Nested_Activity_Adapter(imageList2, click);
         holder.nested_recycleview.setAdapter(nested_activity_adapter);

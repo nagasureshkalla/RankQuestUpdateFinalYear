@@ -18,8 +18,6 @@ public class CollegeDetails implements Comparable<CollegeDetails> {
     private String region;
     @SerializedName("college")
     private String type;
-    @SerializedName("minority")
-    private String minority;
     @SerializedName("coed")
     private String coed;
     @SerializedName("affil")
@@ -98,13 +96,6 @@ public class CollegeDetails implements Comparable<CollegeDetails> {
         this.type = type;
     }
 
-    public String getMinority() {
-        return minority;
-    }
-
-    public void setMinority(String minority) {
-        this.minority = minority;
-    }
 
     public String getCoed() {
         return coed;
@@ -130,22 +121,19 @@ public class CollegeDetails implements Comparable<CollegeDetails> {
         this.fee = fee;
     }
 
-    public String getBranch() {
-        return branch;
-    }
+
 
     public void setBranch(String branch) {
         this.branch = branch;
     }
 
-    public CollegeDetails(String code, String name, String place, String dist, String region, String type, String minority, String coed, String afflicted, String fee, String branch) {
+    public CollegeDetails(String code, String name, String place, String dist, String region, String type, String coed, String afflicted, String fee, String branch) {
         this.code = code;
         this.name = name;
         this.place = place;
         this.dist = dist;
         this.region = region;
         this.type = type;
-        this.minority = minority;
         this.coed = coed;
         this.afflicted = afflicted;
         this.fee = fee;

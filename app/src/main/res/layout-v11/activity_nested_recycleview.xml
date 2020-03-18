@@ -6,28 +6,29 @@
     android:layout_marginTop="20dp"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="100dp"
+        android:src="@drawable/councilling_logo"/>
+
     <yanzhikai.textpath.SyncTextPathView
         android:layout_width="match_parent"
         android:id="@+id/activity_title"
         android:layout_marginStart="10dp"
         android:layout_height="wrap_content"
-        app:text="nothing"
-        app:duration="4000"
+        android:layout_marginTop="10dp"
+        app:duration="3000"
         app:paintStrokeColor="@color/colorPrimary"
-        app:pathStrokeColor="@android:color/holo_green_dark"
+        app:pathStrokeColor="#4285f4"
         app:pathStrokeWidth="1dp"
         app:paintStrokeWidth="1dp"
         app:textSize="20sp"
         app:autoStart="true" />
-
-
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 app:reverseLayout="true"
                 android:id="@+id/nested_activity_recycleview"/>
-
-
 
 </LinearLayout>

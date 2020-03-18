@@ -48,7 +48,6 @@ import com.example.admin.data.fragments.FragmentCollegeDetails_Ecet;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -95,7 +94,12 @@ public class College_Details extends AppCompatActivity implements ActionBar.TabL
         ff.setVisibility(View.INVISIBLE);
 
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        try {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
+        catch (Exception e){
+
+        }
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         //setupViewPager(viewPager);
 
