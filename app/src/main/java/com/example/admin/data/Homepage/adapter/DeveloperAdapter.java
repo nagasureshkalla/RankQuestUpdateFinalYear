@@ -59,7 +59,7 @@ public class DeveloperAdapter extends RecyclerView.Adapter<DeveloperAdapter.View
 
 
 
-            Picasso.get().load("https://firebasestorage.googleapis.com/v0/b/site-org-automation.appspot.com/o/APPLICATION%2FV1%2Fdefault%20profile%20image.jpg?alt=media&token=7ea70045-3850-458b-a864-bd1561a94d42")
+            Picasso.get().load(lis.get(position).getImage())
                     .placeholder(R.drawable.ic_people_outline_black_24dp).into(holder.circleImageView);
 
 
