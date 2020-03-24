@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cutoff"
+        android:icon="@drawable/ic_content_cut_black_24dp"
+        android:title="Cutoff" />
+    <item
+        android:id="@+id/colleges"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Colleges" />
+
+    <item
+        android:id="@+id/branches"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Branches" />
+    <item
+        android:id="@+id/checklist"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="Checklist" />
+    <!--<item
+        android:id="@+id/report"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Reporting Centers" />-->
+    <item
+        android:id="@+id/statastics"
+        android:icon="@drawable/stat"
+        android:title="Statistics" />
+
+</menu>

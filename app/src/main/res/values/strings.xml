@@ -338,9 +338,9 @@ Engineering,WestGodavari dist,AP,INDIA</string>-->
 
     <!-- Admob Banner id's-->
 
-    <string name="banner_id_home_page">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="feedback_admob_id">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="websites_admob_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_id_home_page">ca-app-pub-7470227253711247/6716789388</string>
+    <string name="feedback_admob_id">ca-app-pub-7470227253711247/2869097615</string>
+    <string name="websites_admob_id">ca-app-pub-7470227253711247/2186571334</string>
 
 
 </resources>

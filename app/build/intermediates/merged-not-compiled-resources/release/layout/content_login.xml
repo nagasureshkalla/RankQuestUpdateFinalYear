@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Homepage.Login"
+    tools:showIn="@layout/activity_login">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="439dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textColor="@color/orange"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Registered phone number" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Profession"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/profession"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textAlignment="center"></Spinner>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/examCardRadius"
+            android:layout_marginStart="@dimen/examCardRadius"
+            style="@style/BrandButtonStyle"
+            android:background="@color/colorPrimary"
+            android:text="Login"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/forget"
+            style="@style/BrandButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="@dimen/examCardRadius"
+            android:layout_marginStart="@dimen/examCardRadius"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="forget password?"
+            android:textColor="@color/orange" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Registered phone Number"
+            android:inputType="phone"
+            android:visibility="invisible" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="@dimen/examCardRadius"
+            android:layout_marginEnd="@dimen/examCardRadius"
+            style="@style/BrandButtonStyle"
+            android:background="@android:color/holo_red_dark"
+            android:text="Send Details"
+            android:textColor="@color/red"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -16,9 +16,16 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.admin.data.Homepage.Model.Exam_Name_MainPage;
 import com.example.admin.data.R;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.RequestConfiguration;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.material.chip.Chip;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
@@ -43,6 +50,7 @@ public class Activity_Adapter extends RecyclerView.Adapter<Activity_Adapter.MyVi
             nested_recycleview=view.findViewById(R.id.nested_activity_recycleview);
 
         }
+
 
         public void bind(final Exam_Name_MainPage l,final OnItemClick vv){
             activity_name.setOnClickListener(new View.OnClickListener() {
@@ -103,6 +111,7 @@ public class Activity_Adapter extends RecyclerView.Adapter<Activity_Adapter.MyVi
         Nested_Activity_Adapter nested_activity_adapter=new Nested_Activity_Adapter(imageList2, click);
         holder.nested_recycleview.setAdapter(nested_activity_adapter);
         holder.nested_recycleview.setRecycledViewPool(viewPool);
+
     }
 
     @Override

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cc"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:strokeColor="@color/colorPrimary"
+            app:strokeWidth="@dimen/cardstatRadius"
+            style="@style/Mainactivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/orange"
+                    android:buttonTint="@color/orange"
+                    android:drawableTint="@color/orange"
+                    android:foregroundTint="@color/orange" />
+
+                <TextView
+                    android:id="@+id/reportcollege"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignRight="@+id/c"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                     />
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</LinearLayout>

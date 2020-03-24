@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll"
+    android:layout_height="match_parent"
+    tools:context=".examEamcet.Cutoff_Select_Colleges">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/ok"
+        android:background="@color/mesilver"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:cardElevation="3dp"
+            >
+
+            <EditText
+                android:id="@+id/editSelectColleges"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:hint="       Search for college" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/refreshselectcolleges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.admin.data.FastScroll.FastScrollRecyclerView
+                android:id="@+id/recycleSelectColleges"
+                android:layout_width="match_parent"
+                android:background="@color/mesilver"
+                android:layout_height="wrap_content">
+
+            </com.example.admin.data.FastScroll.FastScrollRecyclerView>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        style="@style/BrandButtonStyle"
+        android:text="OK"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>

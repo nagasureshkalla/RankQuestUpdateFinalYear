@@ -37,7 +37,9 @@ public class Checklist_Adapter extends RecyclerView.Adapter<Checklist_Adapter.Vi
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.collegenam.setText(lis.get(position).getTitle());
-        holder.colcod.setText(lis.get(position).getBody());
+
+        String body=lis.get(position).getBody();
+        holder.colcod.setText(body);
     }
 
     @Override

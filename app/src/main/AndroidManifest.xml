@@ -36,7 +36,7 @@
 
         <activity
             android:name=".Homepage.SplashScreen"
-            android:screenOrientation="portrait">
+            android:screenOrientation="fullSensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -48,129 +48,129 @@
             android:name=".Homepage.MainActivity"
             android:configChanges="orientation"
             android:icon="@drawable/ic_action_action_search"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".Homepage.Eamcet"
             android:label="EAMCET"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".Homepage.Polycet"
             android:label="POLYCET"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".Homepage.Icet"
             android:label="ICET"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".Homepage.Ecet"
             android:label="ECET"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".Homepage.Pgcet"
             android:label="PGECET"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".Homepage.Developers"
             android:label="Developers"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".Homepage.Feedback"
             android:label="Feedback"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".Homepage.Websites"
             android:label="Websites"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examEamcet.Eamcet_Cutoff_Result"
             android:label="EAMCET Cutoff"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examPgecet.Pgcet_Colleges_Details"
             android:label="College Information"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examEamcet.Eamcet_Colleges_Details"
             android:label="College Information"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examEamcet.Select"
             android:label="Select Branches"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examEamcet.Cutoff_Select_Colleges"
             android:label="Select Colleges"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".Homepage.Login"
             android:label="Login"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Homepage.Register"
             android:label="Registration"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".Homepage.Survey"
             android:label="Survey "
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".Homepage.SurveyViewDetails"
             android:label="Survey Details"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examPolycet.Polcet_Colleges_Details"
             android:label="College Information"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examPolycet.SelectBranchesPolycet"
             android:label="Select Branches"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examPolycet.Cutoff_Select_Colleges_Polycet"
             android:label="Select Colleges"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examPolycet.Polycet_Cutoff_Result"
             android:label="POLYCET Cutoff"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examPgecet.SelectBranchesPgcet"
             android:label="Select Branches"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examPgecet.Cutoff_Select_Colleges_Pgcet"
             android:label="Select Colleges"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examPgecet.Pgcet_Cutoff_Result"
             android:label="PGECET Cutoff "
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examEamcet.Emcet_Statastics_Graphs"
             android:label=" "
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examEcet.Ecet_Colleges_Details"
             android:label="College Information"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examEcet.SelectBranchesEcet"
             android:label="Select Branches"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examEcet.Cutoff_Select_Colleges_Ecet"
             android:label="Select Colleges"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".examEcet.Ecet_Cutoff_Result"
             android:label="ECET Cutoff"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
     </application>
 
 </manifest>

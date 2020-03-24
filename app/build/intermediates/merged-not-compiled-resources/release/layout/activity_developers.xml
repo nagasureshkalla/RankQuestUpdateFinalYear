@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/silver"
+
+    >
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/silver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="Developers">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+                android:animateLayoutChanges="true"
+                style="@style/CardBaground"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardElevation="3dp"
+                app:strokeColor="@color/orange"
+                app:strokeWidth="1dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/develop"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="serif"
+                        android:padding="8dp"
+                        android:text="Developed By:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/developersrecycle"/>
+
+<!--                    <TextView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                        android:id="@+id/developr1"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="40dp"-->
+<!--                        android:fontFamily="serif"-->
+<!--                        android:gravity="start"-->
+<!--                        android:padding="3dp"-->
+<!--                        android:text="@string/name"-->
+<!--                        android:textColor="#424242"-->
+<!--                        android:textSize="15sp" />-->
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:animateLayoutChanges="true"
+
+                app:cardElevation="3dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/orange"
+
+                style="@style/CardBaground"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/mentor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="serif"
+                        android:gravity="start"
+                        android:padding="5dp"
+                        android:text="@string/mentor"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/developersrecyclementors"/>
+<!--                    <TextView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                        android:id="@+id/mentor1"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="40dp"-->
+<!--                        android:fontFamily="serif"-->
+<!--                        android:gravity="start"-->
+<!--                        android:padding="3dp"-->
+<!--                        android:text="@string/mname"-->
+<!--                        android:textColor="#424242"-->
+<!--                        android:textSize="15sp" />-->
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:animateLayoutChanges="true"
+android:layout_margin="5dp"
+                        app:cardElevation="3dp"
+                        app:strokeWidth="1dp"
+                        app:strokeColor="@color/orange"
+
+                        style="@style/CardBaground"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/promoted"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:gravity="start"
+                        android:padding="3dp"
+                        android:text="@string/promote"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/sasilogo" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

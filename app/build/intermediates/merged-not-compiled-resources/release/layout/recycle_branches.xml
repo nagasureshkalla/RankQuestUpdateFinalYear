@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/laybranch"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/recyclecard"
+            android:layout_width="match_parent"
+            app:cardElevation="10dp"
+            android:padding="2dp"
+
+            android:clickable="true"
+            app:cardCornerRadius="7dp"
+            android:focusable="true"
+            app:strokeColor="@color/colorPrimary"
+            app:strokeWidth="@dimen/cardstatRadius"
+            style="@style/Mainactivity"
+
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/branch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:fontFamily="@font/open_sans"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="156dp"
+                        android:layout_height="wrap_content"
+                        android:text="     Branch Code  "
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/bcode"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textColor="#e2850a"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="156dp"
+                        android:layout_height="match_parent"
+                        android:text="     Seats Filled  "
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/seatfill"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#e2850a"
+                        android:textSize="16dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="156dp"
+                        android:layout_height="match_parent"
+                        android:text="     Seats Available  "
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/seatavail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ec8d11"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="156dp"
+                        android:layout_height="wrap_content"
+                        android:text="     Percentage  "
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/percent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#e2850a"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

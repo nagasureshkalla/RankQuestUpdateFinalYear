@@ -48,12 +48,12 @@ CardView c1,c2,c3,c4,c5,c6,c7;
         setContentView(R.layout.activity_websites);
 
 
-        // Need to remove at the time deployment in playstore
-        List<String> testDeviceIds = Arrays.asList("863376046429999");
-        RequestConfiguration configuration =
-                new RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build();
-        MobileAds.setRequestConfiguration(configuration);
-        //upto here
+//        // Need to remove at the time deployment in playstore
+//        List<String> testDeviceIds = Arrays.asList("863376046429999");
+//        RequestConfiguration configuration =
+//                new RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build();
+//        MobileAds.setRequestConfiguration(configuration);
+//        //upto here
 
 
         MobileAds.initialize(this, new OnInitializationCompleteListener() {

@@ -68,12 +68,12 @@ public class MainActivity extends AppCompatActivity implements Serializable {
         //Admob Account redants@sasi.ac.in
 
 
-        // Need to remove at the time deployment in playstore
-        List<String> testDeviceIds = Arrays.asList("863376046429999");
-        RequestConfiguration configuration =
-                new RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build();
-        MobileAds.setRequestConfiguration(configuration);
-        //upto here
+//        // Need to remove at the time deployment in playstore
+//        List<String> testDeviceIds = Arrays.asList("863376046429999");
+//        RequestConfiguration configuration =
+//                new RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build();
+//        MobileAds.setRequestConfiguration(configuration);
+//        //upto here
 
 
 

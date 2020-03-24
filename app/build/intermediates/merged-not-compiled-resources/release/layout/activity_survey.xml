@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Homepage.Survey">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/orange"
+            android:text="Enter student Details"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="70dp">
+
+            <EditText
+                android:id="@+id/sname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Student Name"
+                android:inputType="text"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="70dp">
+
+            <EditText
+                android:id="@+id/scollege"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="College"
+                android:inputType="text"
+                android:textSize="15dp" />
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="70dp">
+
+            <EditText
+                android:id="@+id/sphone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Phone"
+                android:inputType="phone"
+                android:textSize="15dp" />
+
+</androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="70dp">
+
+            <EditText
+                android:id="@+id/smail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Mail"
+                android:inputType="textEmailAddress"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="70dp">
+
+            <EditText
+                android:id="@+id/sinter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Rank"
+                android:inputType="text"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="70dp">
+
+            <EditText
+                android:id="@+id/s10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Marks"
+                android:inputType="text"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="70dp">
+            <EditText
+                android:id="@+id/addresses"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Address"
+                android:inputType="text"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="Exam"
+                    android:textColor="@color/orange"
+                    android:textSize="25dp" />
+
+                <Spinner
+                    android:id="@+id/examput"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:textAlignment="textEnd"></Spinner>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/post"
+            style="@style/BrandButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="@dimen/examCardRadius"
+            android:layout_marginStart="@dimen/examCardRadius"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Post Students Details"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/viewpost"
+            style="@style/BrandButtonStyle"
+            android:layout_marginStart="@dimen/examCardRadius"
+            android:layout_marginEnd="@dimen/examCardRadius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Posted Students Details Here"
+            android:textAlignment="center"
+
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

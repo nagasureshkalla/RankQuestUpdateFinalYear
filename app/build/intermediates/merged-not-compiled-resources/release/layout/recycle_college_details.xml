@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:clickable="false"
+    android:focusable="false"
+    android:orientation="vertical"
+    >
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:background="@color/white"
+
+        android:clickable="true"
+        android:focusable="true"
+        app:strokeColor="@color/colorPrimary"
+        app:strokeWidth="@dimen/cardstatRadius"
+        android:elevation="10dp"
+        style="@style/Mainactivity"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+
+        app:cardCornerRadius="@dimen/examCardRadius"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/silver"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/collegename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="CollegeName"
+
+            android:textAlignment="center"
+            android:fontFamily="@font/open_sans"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:layout_marginBottom="1dp"/>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/silver"
+                android:stretchColumns="*">
+
+                <TableRow
+
+                    android:layout_marginBottom="0.5dp"
+                    android:background="@color/white">
+                    <TextView
+                        android:id="@+id/code1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="  Code"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="NA"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow
+                    android:background="@color/white"
+                    android:layout_marginBottom="0.5dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/place1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="  Place"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/place"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:text="NA"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="0.5dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/distname1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="  District"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/distname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="NA"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="0.5dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/region"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="  Region"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/regions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="NA"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="0.5dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/collegetypes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="  College Type"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/collegetype"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="NA"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="0.5dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/affiliated"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="  Affiliated To"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/affiliate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="NA"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="0.5dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/coed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="  CO-Education"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/coeduction"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="NA"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="0.5dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/fee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="  Tution Fee"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/fee1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="NA"
+                        android:textSize="17sp" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
