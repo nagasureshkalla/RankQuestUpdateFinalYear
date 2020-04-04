@@ -4,7 +4,7 @@
             "outputFile": "S:\\RANKQUEST\\RankQuest_App-master\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\dfea147dc5be8a25ac526e03005c12ad\\appcompat-1.2.0-alpha03\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\12a2087241f1335e25c6181f8d7ffed0\\appcompat-1.2.0-beta01\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

@@ -12,17 +12,17 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int edMaxAnimationDuration = 0x7f040102;
-        public static final int edMenuBackground = 0x7f040103;
-        public static final int edMenuSize = 0x7f040104;
-        public static final int edPosition = 0x7f040105;
-        public static final int edTouchBezelSize = 0x7f040106;
-        public static final int elasticDrawerStyle = 0x7f040141;
+        public static final int edMaxAnimationDuration = 0x7f040103;
+        public static final int edMenuBackground = 0x7f040104;
+        public static final int edMenuSize = 0x7f040105;
+        public static final int edPosition = 0x7f040106;
+        public static final int edTouchBezelSize = 0x7f040107;
+        public static final int elasticDrawerStyle = 0x7f040142;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] ElasticDrawer = { 0x7f040102, 0x7f040103, 0x7f040104, 0x7f040105, 0x7f040106 };
+        public static final int[] ElasticDrawer = { 0x7f040103, 0x7f040104, 0x7f040105, 0x7f040106, 0x7f040107 };
         public static final int ElasticDrawer_edMaxAnimationDuration = 0;
         public static final int ElasticDrawer_edMenuBackground = 1;
         public static final int ElasticDrawer_edMenuSize = 2;

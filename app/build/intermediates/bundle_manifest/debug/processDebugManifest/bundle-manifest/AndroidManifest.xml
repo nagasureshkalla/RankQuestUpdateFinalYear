@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.redants.rankquest"
-    android:versionCode="8"
-    android:versionName="1.8" >
+    android:versionCode="10"
+    android:versionName="2.0" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -23,9 +23,12 @@
         android:label="RankQuest"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7470227253711247~4089135355" />
+
         <activity android:name="com.example.admin.data.Homepage.DynamicFragments.College_Details" />
         <activity android:name="com.example.admin.data.Homepage.DynamicFragments.SelectColleges" />
         <activity android:name="com.example.admin.data.Homepage.DynamicFragments.SelectBranches" />
@@ -39,15 +42,12 @@
         <activity android:name="com.example.admin.data.Homepage.Nit" />
 
         <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-7470227253711247~4089135355" />
-        <meta-data
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
             android:value="true" />
 
         <activity
             android:name="com.example.admin.data.Homepage.SplashScreen"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="fullSensor" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -59,129 +59,129 @@
             android:name="com.example.admin.data.Homepage.MainActivity"
             android:configChanges="orientation"
             android:icon="@drawable/ic_action_action_search"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.Homepage.Eamcet"
             android:label="EAMCET"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name="com.example.admin.data.Homepage.Polycet"
             android:label="POLYCET"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name="com.example.admin.data.Homepage.Icet"
             android:label="ICET"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name="com.example.admin.data.Homepage.Ecet"
             android:label="ECET"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name="com.example.admin.data.Homepage.Pgcet"
             android:label="PGECET"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name="com.example.admin.data.Homepage.Developers"
             android:label="Developers"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.Homepage.Feedback"
             android:label="Feedback"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.Homepage.Websites"
             android:label="Websites"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examEamcet.Eamcet_Cutoff_Result"
             android:label="EAMCET Cutoff"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examPgecet.Pgcet_Colleges_Details"
             android:label="College Information"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examEamcet.Eamcet_Colleges_Details"
             android:label="College Information"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examEamcet.Select"
             android:label="Select Branches"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examEamcet.Cutoff_Select_Colleges"
             android:label="Select Colleges"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.Homepage.Login"
             android:label="Login"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.admin.data.Homepage.Register"
             android:label="Registration"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.Homepage.Survey"
             android:label="Survey "
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.Homepage.SurveyViewDetails"
             android:label="Survey Details"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examPolycet.Polcet_Colleges_Details"
             android:label="College Information"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examPolycet.SelectBranchesPolycet"
             android:label="Select Branches"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examPolycet.Cutoff_Select_Colleges_Polycet"
             android:label="Select Colleges"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examPolycet.Polycet_Cutoff_Result"
             android:label="POLYCET Cutoff"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examPgecet.SelectBranchesPgcet"
             android:label="Select Branches"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examPgecet.Cutoff_Select_Colleges_Pgcet"
             android:label="Select Colleges"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examPgecet.Pgcet_Cutoff_Result"
             android:label="PGECET Cutoff "
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examEamcet.Emcet_Statastics_Graphs"
             android:label=" "
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examEcet.Ecet_Colleges_Details"
             android:label="College Information"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examEcet.SelectBranchesEcet"
             android:label="Select Branches"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examEcet.Cutoff_Select_Colleges_Ecet"
             android:label="Select Colleges"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.admin.data.examEcet.Ecet_Cutoff_Result"
             android:label="ECET Cutoff"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <!--
              FirebaseMessagingService performs security checks at runtime,
              but set to not exported to explicitly avoid allowing another app to call it.
@@ -204,10 +204,13 @@
                 android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 

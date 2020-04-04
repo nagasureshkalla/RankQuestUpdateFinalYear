@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.redants.rankquest"
-4    android:versionCode="9"
-5    android:versionName="1.9" >
+4    android:versionCode="11"
+5    android:versionName="2.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
@@ -20,21 +20,21 @@
 13-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:7:5-79
 13-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:7:22-76
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:25:5-68
-14-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:25:22-65
+14-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:25:5-68
+14-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:25:22-65
 15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-15-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:26:5-110
-15-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:26:22-107
+15-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:26:22-107
 16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-16-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\79ee4bd50477a1a22c6feca43027b5ab\firebase-iid-20.1.2\AndroidManifest.xml:26:5-82
-16-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\79ee4bd50477a1a22c6feca43027b5ab\firebase-iid-20.1.2\AndroidManifest.xml:26:22-79
+16-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
 17
 18    <application
-18-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:9:5-174:19
+18-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:9:5-177:19
 19        android:allowBackup="true"
 19-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:10:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.3.0-alpha02] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6b7c9548ac7012a04019414f1ec55266\core-1.3.0-alpha02\AndroidManifest.xml:24:18-86
+20-->[androidx.core:core:1.3.0-beta01] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3fa57721c4f0dfcadbc8489c9e1c4e54\core-1.3.0-beta01\AndroidManifest.xml:24:18-86
 21        android:icon="@mipmap/ic_launcher"
 21-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:11:9-43
 22        android:label="RankQuest"
@@ -47,530 +47,531 @@
 25-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:15:9-40
 26        android:usesCleartextTraffic="true" >
 26-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:16:9-44
-27        <activity android:name="com.example.admin.data.Homepage.DynamicFragments.College_Details" />
-27-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:17:9-88
-27-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:17:19-76
-28        <activity android:name="com.example.admin.data.Homepage.DynamicFragments.SelectColleges" />
-28-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:18:9-78
-28-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:18:19-75
-29        <activity android:name="com.example.admin.data.Homepage.DynamicFragments.SelectBranches" />
-29-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:19:9-78
-29-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:19:19-75
-30        <activity android:name="com.example.admin.data.Homepage.DynamicFragments.Dynamic_Cutoff_Result" />
-30-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:20:9-85
-30-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:20:19-82
-31        <activity
-31-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:21:9-23:55
-32            android:name="com.example.admin.data.Homepage.Dynamic_Class_For_Bottom_Navigation"
-32-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:22:13-73
-33            android:windowSoftInputMode="adjustPan" />
-33-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:23:13-52
-34        <activity android:name="com.example.admin.data.examPolycet.Polycet_Statastics_Graphs" />
-34-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:24:9-75
-34-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:24:19-72
-35        <activity android:name="com.example.admin.data.examPgecet.Pgcet_Statastics_Graphs" />
-35-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:25:9-72
-35-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:25:19-69
-36        <activity android:name="com.example.admin.data.examEcet.Ecet_Statastics_Graphs" />
-36-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:26:9-69
-36-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:26:19-66
-37        <activity android:name="com.example.admin.data.Homepage.Nit" />
-37-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:27:9-50
-37-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:27:19-47
-38
-39        <meta-data
-39-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:29:9-31:69
-40            android:name="com.google.android.gms.ads.APPLICATION_ID"
-40-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:30:13-69
-41            android:value="ca-app-pub-7470227253711247~4089135355" />
-41-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:31:13-67
-42        <meta-data
-42-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:33:9-35:35
-43            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
-43-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:34:13-69
-44            android:value="true" />
-44-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:35:13-33
-45
-46        <activity
-46-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:37:9-46:20
-47            android:name="com.example.admin.data.Homepage.SplashScreen"
-47-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:38:13-50
-48            android:screenOrientation="fullSensor" >
-48-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:39:13-51
-49            <intent-filter>
-49-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:40:13-45:29
-50                <action android:name="android.intent.action.MAIN" />
-50-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:41:17-69
-50-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:41:25-66
-51                <action android:name="android.intent.action.VIEW" />
-51-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:42:17-69
-51-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:42:25-66
-52
-53                <category android:name="android.intent.category.LAUNCHER" />
-53-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:44:17-77
-53-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:44:27-74
-54            </intent-filter>
-55        </activity>
-56        <activity
-56-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:47:9-51:54
-57            android:name="com.example.admin.data.Homepage.MainActivity"
-57-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:48:13-50
-58            android:configChanges="orientation"
-58-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:49:13-48
-59            android:icon="@drawable/ic_action_action_search"
-59-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:50:13-61
-60            android:screenOrientation="fullSensor" />
-60-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:51:13-51
-61        <activity
-61-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:52:9-56:55
-62            android:name="com.example.admin.data.Homepage.Eamcet"
-62-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:53:13-44
-63            android:label="EAMCET"
-63-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:54:13-35
-64            android:screenOrientation="fullSensor"
-64-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:55:13-51
-65            android:windowSoftInputMode="adjustPan" />
-65-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:56:13-52
-66        <activity
-66-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:57:9-61:55
-67            android:name="com.example.admin.data.Homepage.Polycet"
-67-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:58:13-45
-68            android:label="POLYCET"
-68-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:59:13-36
-69            android:screenOrientation="fullSensor"
-69-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:60:13-51
-70            android:windowSoftInputMode="adjustPan" />
-70-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:61:13-52
-71        <activity
-71-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:62:9-66:55
-72            android:name="com.example.admin.data.Homepage.Icet"
-72-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:63:13-42
-73            android:label="ICET"
-73-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:64:13-33
-74            android:screenOrientation="fullSensor"
-74-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:65:13-51
-75            android:windowSoftInputMode="adjustPan" />
-75-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:66:13-52
-76        <activity
-76-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:67:9-71:55
-77            android:name="com.example.admin.data.Homepage.Ecet"
-77-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:68:13-42
-78            android:label="ECET"
-78-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:69:13-33
-79            android:screenOrientation="fullSensor"
-79-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:70:13-51
-80            android:windowSoftInputMode="adjustPan" />
-80-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:71:13-52
-81        <activity
-81-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:72:9-76:55
-82            android:name="com.example.admin.data.Homepage.Pgcet"
-82-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:73:13-43
-83            android:label="PGECET"
-83-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:74:13-35
-84            android:screenOrientation="fullSensor"
-84-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:75:13-51
-85            android:windowSoftInputMode="adjustPan" />
-85-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:76:13-52
-86        <activity
-86-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:77:9-80:54
-87            android:name="com.example.admin.data.Homepage.Developers"
-87-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:78:13-48
-88            android:label="Developers"
-88-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:79:13-39
-89            android:screenOrientation="fullSensor" />
-89-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:80:13-51
-90        <activity
-90-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:81:9-84:54
-91            android:name="com.example.admin.data.Homepage.Feedback"
-91-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:82:13-46
-92            android:label="Feedback"
-92-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:83:13-37
-93            android:screenOrientation="fullSensor" />
-93-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:84:13-51
-94        <activity
-94-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:85:9-88:54
-95            android:name="com.example.admin.data.Homepage.Websites"
-95-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:86:13-46
-96            android:label="Websites"
-96-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:87:13-37
-97            android:screenOrientation="fullSensor" />
-97-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:88:13-51
-98        <activity
-98-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:89:9-92:54
-99            android:name="com.example.admin.data.examEamcet.Eamcet_Cutoff_Result"
-99-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:90:13-60
-100            android:label="EAMCET Cutoff"
-100-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:91:13-42
-101            android:screenOrientation="fullSensor" />
-101-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:92:13-51
-102        <activity
-102-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:93:9-96:54
-103            android:name="com.example.admin.data.examPgecet.Pgcet_Colleges_Details"
-103-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:94:13-62
-104            android:label="College Information"
-104-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:95:13-48
-105            android:screenOrientation="fullSensor" />
-105-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:96:13-51
-106        <activity
-106-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:97:9-100:54
-107            android:name="com.example.admin.data.examEamcet.Eamcet_Colleges_Details"
-107-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:98:13-63
-108            android:label="College Information"
-108-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:99:13-48
-109            android:screenOrientation="fullSensor" />
-109-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:100:13-51
-110        <activity
-110-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:101:9-104:54
-111            android:name="com.example.admin.data.examEamcet.Select"
-111-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:102:13-46
-112            android:label="Select Branches"
-112-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:103:13-44
-113            android:screenOrientation="fullSensor" />
-113-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:104:13-51
-114        <activity
-114-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:105:9-108:54
-115            android:name="com.example.admin.data.examEamcet.Cutoff_Select_Colleges"
-115-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:106:13-62
-116            android:label="Select Colleges"
-116-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:107:13-44
-117            android:screenOrientation="fullSensor" />
-117-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:108:13-51
-118        <activity
-118-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:109:9-113:59
-119            android:name="com.example.admin.data.Homepage.Login"
-119-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:110:13-43
-120            android:label="Login"
-120-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:111:13-34
-121            android:screenOrientation="fullSensor"
-121-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:112:13-51
-122            android:theme="@style/AppTheme.NoActionBar" />
-122-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:113:13-56
-123        <activity
-123-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:114:9-117:54
-124            android:name="com.example.admin.data.Homepage.Register"
-124-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:115:13-46
-125            android:label="Registration"
-125-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:116:13-41
-126            android:screenOrientation="fullSensor" />
-126-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:117:13-51
-127        <activity
-127-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:118:9-121:54
-128            android:name="com.example.admin.data.Homepage.Survey"
-128-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:119:13-44
-129            android:label="Survey "
-129-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:120:13-36
-130            android:screenOrientation="fullSensor" />
-130-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:121:13-51
-131        <activity
-131-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:122:9-125:54
-132            android:name="com.example.admin.data.Homepage.SurveyViewDetails"
-132-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:123:13-55
-133            android:label="Survey Details"
-133-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:124:13-43
-134            android:screenOrientation="fullSensor" />
-134-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:125:13-51
-135        <activity
-135-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:126:9-129:54
-136            android:name="com.example.admin.data.examPolycet.Polcet_Colleges_Details"
-136-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:127:13-64
-137            android:label="College Information"
-137-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:128:13-48
-138            android:screenOrientation="fullSensor" />
-138-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:129:13-51
-139        <activity
-139-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:130:9-133:54
-140            android:name="com.example.admin.data.examPolycet.SelectBranchesPolycet"
-140-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:131:13-62
-141            android:label="Select Branches"
-141-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:132:13-44
-142            android:screenOrientation="fullSensor" />
-142-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:133:13-51
-143        <activity
-143-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:134:9-137:54
-144            android:name="com.example.admin.data.examPolycet.Cutoff_Select_Colleges_Polycet"
-144-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:135:13-71
-145            android:label="Select Colleges"
-145-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:136:13-44
-146            android:screenOrientation="fullSensor" />
-146-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:137:13-51
-147        <activity
-147-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:138:9-141:54
-148            android:name="com.example.admin.data.examPolycet.Polycet_Cutoff_Result"
-148-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:139:13-62
-149            android:label="POLYCET Cutoff"
-149-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:140:13-43
-150            android:screenOrientation="fullSensor" />
-150-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:141:13-51
-151        <activity
-151-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:142:9-145:54
-152            android:name="com.example.admin.data.examPgecet.SelectBranchesPgcet"
-152-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:143:13-59
-153            android:label="Select Branches"
-153-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:144:13-44
-154            android:screenOrientation="fullSensor" />
-154-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:145:13-51
-155        <activity
-155-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:146:9-149:54
-156            android:name="com.example.admin.data.examPgecet.Cutoff_Select_Colleges_Pgcet"
-156-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:147:13-68
-157            android:label="Select Colleges"
-157-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:148:13-44
-158            android:screenOrientation="fullSensor" />
-158-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:149:13-51
-159        <activity
-159-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:150:9-153:54
-160            android:name="com.example.admin.data.examPgecet.Pgcet_Cutoff_Result"
-160-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:151:13-59
-161            android:label="PGECET Cutoff "
-161-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:152:13-43
-162            android:screenOrientation="fullSensor" />
-162-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:153:13-51
-163        <activity
-163-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:154:9-157:54
-164            android:name="com.example.admin.data.examEamcet.Emcet_Statastics_Graphs"
-164-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:155:13-63
-165            android:label=" "
-165-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:156:13-30
-166            android:screenOrientation="fullSensor" />
-166-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:157:13-51
-167        <activity
-167-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:158:9-161:54
-168            android:name="com.example.admin.data.examEcet.Ecet_Colleges_Details"
-168-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:159:13-59
-169            android:label="College Information"
-169-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:160:13-48
-170            android:screenOrientation="fullSensor" />
-170-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:161:13-51
-171        <activity
-171-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:162:9-165:54
-172            android:name="com.example.admin.data.examEcet.SelectBranchesEcet"
-172-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:163:13-56
-173            android:label="Select Branches"
-173-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:164:13-44
-174            android:screenOrientation="fullSensor" />
-174-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:165:13-51
-175        <activity
-175-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:166:9-169:54
-176            android:name="com.example.admin.data.examEcet.Cutoff_Select_Colleges_Ecet"
-176-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:167:13-65
-177            android:label="Select Colleges"
-177-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:168:13-44
-178            android:screenOrientation="fullSensor" />
-178-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:169:13-51
-179        <activity
-179-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:170:9-173:54
-180            android:name="com.example.admin.data.examEcet.Ecet_Cutoff_Result"
-180-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:171:13-56
-181            android:label="ECET Cutoff"
-181-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:172:13-40
-182            android:screenOrientation="fullSensor" />
-182-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:173:13-51
-183        <!--
-184             FirebaseMessagingService performs security checks at runtime,
-185             but set to not exported to explicitly avoid allowing another app to call it.
-186        -->
-187        <service
-187-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:28:9-34:19
-188            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-188-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:29:13-82
-189            android:exported="false" >
-189-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:30:13-37
-190            <intent-filter android:priority="-500" >
-190-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:31:13-33:29
-190-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:31:28-51
-191                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-191-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:32:17-78
-191-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:32:25-75
-192            </intent-filter>
-193        </service>
-194        <service
-194-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:35:9-41:19
-195            android:name="com.google.firebase.components.ComponentDiscoveryService"
-195-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:36:13-84
-196            android:directBootAware="true"
-196-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47e3c3b78cbe28d11243692d9fc33e74\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-197            android:exported="false" >
-197-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:37:13-37
-198            <meta-data
-198-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:38:13-40:85
-199                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-199-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:39:17-119
-200                android:value="com.google.firebase.components.ComponentRegistrar" />
-200-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ee47d3b38eafedd3985039e79761b8d\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:40:17-82
-201            <meta-data
-201-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4769d4a1eb92f11d2dcfbb59effe5dbf\play-services-measurement-api-17.2.3\AndroidManifest.xml:30:13-32:85
-202                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-202-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4769d4a1eb92f11d2dcfbb59effe5dbf\play-services-measurement-api-17.2.3\AndroidManifest.xml:31:17-139
-203                android:value="com.google.firebase.components.ComponentRegistrar" />
-203-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4769d4a1eb92f11d2dcfbb59effe5dbf\play-services-measurement-api-17.2.3\AndroidManifest.xml:32:17-82
-204            <meta-data
-204-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
-205                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-205-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
-206                android:value="com.google.firebase.components.ComponentRegistrar" />
-206-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
-207            <meta-data
-207-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\79ee4bd50477a1a22c6feca43027b5ab\firebase-iid-20.1.2\AndroidManifest.xml:32:13-34:85
-208                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-208-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\79ee4bd50477a1a22c6feca43027b5ab\firebase-iid-20.1.2\AndroidManifest.xml:33:17-96
-209                android:value="com.google.firebase.components.ComponentRegistrar" />
-209-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\79ee4bd50477a1a22c6feca43027b5ab\firebase-iid-20.1.2\AndroidManifest.xml:34:17-82
-210            <meta-data
-210-->[com.google.firebase:firebase-installations:16.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\f56addc14a8fde7b18e8d7a54fdd46a5\firebase-installations-16.1.0\AndroidManifest.xml:17:13-19:85
-211                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-211-->[com.google.firebase:firebase-installations:16.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\f56addc14a8fde7b18e8d7a54fdd46a5\firebase-installations-16.1.0\AndroidManifest.xml:18:17-127
-212                android:value="com.google.firebase.components.ComponentRegistrar" />
-212-->[com.google.firebase:firebase-installations:16.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\f56addc14a8fde7b18e8d7a54fdd46a5\firebase-installations-16.1.0\AndroidManifest.xml:19:17-82
-213        </service>
-214
-215        <provider
-215-->[com.squareup.picasso:picasso:2.71828] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c06e7c7c8eb9e9f568fb515669cb3f46\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-216            android:name="com.squareup.picasso.PicassoProvider"
-216-->[com.squareup.picasso:picasso:2.71828] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c06e7c7c8eb9e9f568fb515669cb3f46\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-217            android:authorities="com.redants.rankquest.com.squareup.picasso"
-217-->[com.squareup.picasso:picasso:2.71828] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c06e7c7c8eb9e9f568fb515669cb3f46\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-218            android:exported="false" />
-218-->[com.squareup.picasso:picasso:2.71828] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c06e7c7c8eb9e9f568fb515669cb3f46\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-219
-220        <receiver
-220-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:29:9-33:20
-221            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-221-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:30:13-85
-222            android:enabled="true"
-222-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:31:13-35
-223            android:exported="false" >
-223-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:32:13-37
-224        </receiver>
-225        <receiver
-225-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:34:9-42:20
-226            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-226-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:35:13-100
-227            android:enabled="true"
-227-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:36:13-35
-228            android:exported="true"
-228-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:37:13-36
-229            android:permission="android.permission.INSTALL_PACKAGES" >
-229-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:38:13-69
-230            <intent-filter>
-230-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:39:13-41:29
-231                <action android:name="com.android.vending.INSTALL_REFERRER" />
-231-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:40:17-79
-231-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:40:25-76
-232            </intent-filter>
-233        </receiver>
-234
-235        <service
-235-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:44:9-47:40
-236            android:name="com.google.android.gms.measurement.AppMeasurementService"
-236-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:45:13-84
-237            android:enabled="true"
-237-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:46:13-35
-238            android:exported="false" />
-238-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:47:13-37
-239        <service
-239-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:48:9-52:72
-240            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-240-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:49:13-87
-241            android:enabled="true"
-241-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:50:13-35
-242            android:exported="false"
-242-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:51:13-37
-243            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-243-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ce3641f79fe4685492a0d3af52dcf29e\play-services-measurement-17.2.3\AndroidManifest.xml:52:13-69
-244        <activity
-244-->[com.google.android.gms:play-services-ads-lite:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16b1704307b2a914148a115be2a60641\play-services-ads-lite-19.0.0\AndroidManifest.xml:29:9-33:64
-245            android:name="com.google.android.gms.ads.AdActivity"
-245-->[com.google.android.gms:play-services-ads-lite:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16b1704307b2a914148a115be2a60641\play-services-ads-lite-19.0.0\AndroidManifest.xml:30:13-65
-246            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-246-->[com.google.android.gms:play-services-ads-lite:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16b1704307b2a914148a115be2a60641\play-services-ads-lite-19.0.0\AndroidManifest.xml:31:13-122
-247            android:exported="false"
-247-->[com.google.android.gms:play-services-ads-lite:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16b1704307b2a914148a115be2a60641\play-services-ads-lite-19.0.0\AndroidManifest.xml:32:13-37
-248            android:theme="@android:style/Theme.Translucent" />
-248-->[com.google.android.gms:play-services-ads-lite:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16b1704307b2a914148a115be2a60641\play-services-ads-lite-19.0.0\AndroidManifest.xml:33:13-61
-249
-250        <provider
-250-->[com.google.android.gms:play-services-ads-lite:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16b1704307b2a914148a115be2a60641\play-services-ads-lite-19.0.0\AndroidManifest.xml:35:9-39:39
-251            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-251-->[com.google.android.gms:play-services-ads-lite:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16b1704307b2a914148a115be2a60641\play-services-ads-lite-19.0.0\AndroidManifest.xml:36:13-76
-252            android:authorities="com.redants.rankquest.mobileadsinitprovider"
-252-->[com.google.android.gms:play-services-ads-lite:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16b1704307b2a914148a115be2a60641\play-services-ads-lite-19.0.0\AndroidManifest.xml:37:13-73
-253            android:exported="false"
-253-->[com.google.android.gms:play-services-ads-lite:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16b1704307b2a914148a115be2a60641\play-services-ads-lite-19.0.0\AndroidManifest.xml:38:13-37
-254            android:initOrder="100" />
-254-->[com.google.android.gms:play-services-ads-lite:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16b1704307b2a914148a115be2a60641\play-services-ads-lite-19.0.0\AndroidManifest.xml:39:13-36
-255
-256        <receiver
-256-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\79ee4bd50477a1a22c6feca43027b5ab\firebase-iid-20.1.2\AndroidManifest.xml:37:9-44:20
-257            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-257-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\79ee4bd50477a1a22c6feca43027b5ab\firebase-iid-20.1.2\AndroidManifest.xml:38:13-78
-258            android:exported="true"
-258-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\79ee4bd50477a1a22c6feca43027b5ab\firebase-iid-20.1.2\AndroidManifest.xml:39:13-36
-259            android:permission="com.google.android.c2dm.permission.SEND" >
-259-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\79ee4bd50477a1a22c6feca43027b5ab\firebase-iid-20.1.2\AndroidManifest.xml:40:13-73
-260            <intent-filter>
-260-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\79ee4bd50477a1a22c6feca43027b5ab\firebase-iid-20.1.2\AndroidManifest.xml:41:13-43:29
-261                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-261-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\79ee4bd50477a1a22c6feca43027b5ab\firebase-iid-20.1.2\AndroidManifest.xml:42:17-81
-261-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\79ee4bd50477a1a22c6feca43027b5ab\firebase-iid-20.1.2\AndroidManifest.xml:42:25-78
-262            </intent-filter>
-263        </receiver>
-264
-265        <provider
-265-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47e3c3b78cbe28d11243692d9fc33e74\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-266            android:name="com.google.firebase.provider.FirebaseInitProvider"
-266-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47e3c3b78cbe28d11243692d9fc33e74\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-267            android:authorities="com.redants.rankquest.firebaseinitprovider"
-267-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47e3c3b78cbe28d11243692d9fc33e74\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-268            android:exported="false"
-268-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47e3c3b78cbe28d11243692d9fc33e74\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-269            android:initOrder="100" />
-269-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47e3c3b78cbe28d11243692d9fc33e74\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-270
-271        <activity
-271-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-272            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-272-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-273            android:exported="false"
-273-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-274            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-274-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-275
-276        <meta-data
-276-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a4c5737225694d4e3f9037b3cb9fb26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-277            android:name="com.google.android.gms.version"
-277-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a4c5737225694d4e3f9037b3cb9fb26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-278            android:value="@integer/google_play_services_version" />
-278-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a4c5737225694d4e3f9037b3cb9fb26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-279
-280        <service
-280-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
-281            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-281-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
-282            android:exported="false" >
-282-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
-283            <meta-data
-283-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
-284                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-284-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
-285                android:value="cct" />
-285-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
-286        </service>
-287        <service
-287-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
-288            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-288-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
-289            android:exported="false"
-289-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
-290            android:permission="android.permission.BIND_JOB_SERVICE" >
-290-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
-291        </service>
-292
-293        <receiver
-293-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
-294            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-294-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
-295            android:exported="false" />
-295-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
-296    </application>
-297
-298</manifest>
+27        <meta-data
+27-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:18:9-20:69
+28            android:name="com.google.android.gms.ads.APPLICATION_ID"
+28-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:19:13-69
+29            android:value="ca-app-pub-7470227253711247~4089135355" />
+29-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:20:13-67
+30
+31        <activity android:name="com.example.admin.data.Homepage.DynamicFragments.College_Details" />
+31-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:22:9-88
+31-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:22:19-76
+32        <activity android:name="com.example.admin.data.Homepage.DynamicFragments.SelectColleges" />
+32-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:23:9-78
+32-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:23:19-75
+33        <activity android:name="com.example.admin.data.Homepage.DynamicFragments.SelectBranches" />
+33-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:24:9-78
+33-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:24:19-75
+34        <activity android:name="com.example.admin.data.Homepage.DynamicFragments.Dynamic_Cutoff_Result" />
+34-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:25:9-85
+34-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:25:19-82
+35        <activity
+35-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:26:9-28:55
+36            android:name="com.example.admin.data.Homepage.Dynamic_Class_For_Bottom_Navigation"
+36-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:27:13-73
+37            android:windowSoftInputMode="adjustPan" />
+37-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:28:13-52
+38        <activity android:name="com.example.admin.data.examPolycet.Polycet_Statastics_Graphs" />
+38-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:29:9-75
+38-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:29:19-72
+39        <activity android:name="com.example.admin.data.examPgecet.Pgcet_Statastics_Graphs" />
+39-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:30:9-72
+39-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:30:19-69
+40        <activity android:name="com.example.admin.data.examEcet.Ecet_Statastics_Graphs" />
+40-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:31:9-69
+40-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:31:19-66
+41        <activity android:name="com.example.admin.data.Homepage.Nit" />
+41-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:32:9-50
+41-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:32:19-47
+42
+43        <meta-data
+43-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:36:9-38:35
+44            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+44-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:37:13-69
+45            android:value="true" />
+45-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:38:13-33
+46
+47        <activity
+47-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:40:9-49:20
+48            android:name="com.example.admin.data.Homepage.SplashScreen"
+48-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:41:13-50
+49            android:screenOrientation="fullSensor" >
+49-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:42:13-51
+50            <intent-filter>
+50-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:43:13-48:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:44:17-69
+51-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:44:25-66
+52                <action android:name="android.intent.action.VIEW" />
+52-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:45:17-69
+52-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:45:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:47:17-77
+54-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:47:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:50:9-54:54
+58            android:name="com.example.admin.data.Homepage.MainActivity"
+58-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:51:13-50
+59            android:configChanges="orientation"
+59-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:52:13-48
+60            android:icon="@drawable/ic_action_action_search"
+60-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:53:13-61
+61            android:screenOrientation="fullSensor" />
+61-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:54:13-51
+62        <activity
+62-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:55:9-59:55
+63            android:name="com.example.admin.data.Homepage.Eamcet"
+63-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:56:13-44
+64            android:label="EAMCET"
+64-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:57:13-35
+65            android:screenOrientation="fullSensor"
+65-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:58:13-51
+66            android:windowSoftInputMode="adjustPan" />
+66-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:59:13-52
+67        <activity
+67-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:60:9-64:55
+68            android:name="com.example.admin.data.Homepage.Polycet"
+68-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:61:13-45
+69            android:label="POLYCET"
+69-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:62:13-36
+70            android:screenOrientation="fullSensor"
+70-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:63:13-51
+71            android:windowSoftInputMode="adjustPan" />
+71-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:64:13-52
+72        <activity
+72-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:65:9-69:55
+73            android:name="com.example.admin.data.Homepage.Icet"
+73-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:66:13-42
+74            android:label="ICET"
+74-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:67:13-33
+75            android:screenOrientation="fullSensor"
+75-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:68:13-51
+76            android:windowSoftInputMode="adjustPan" />
+76-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:69:13-52
+77        <activity
+77-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:70:9-74:55
+78            android:name="com.example.admin.data.Homepage.Ecet"
+78-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:71:13-42
+79            android:label="ECET"
+79-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:72:13-33
+80            android:screenOrientation="fullSensor"
+80-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:73:13-51
+81            android:windowSoftInputMode="adjustPan" />
+81-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:74:13-52
+82        <activity
+82-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:75:9-79:55
+83            android:name="com.example.admin.data.Homepage.Pgcet"
+83-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:76:13-43
+84            android:label="PGECET"
+84-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:77:13-35
+85            android:screenOrientation="fullSensor"
+85-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:78:13-51
+86            android:windowSoftInputMode="adjustPan" />
+86-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:79:13-52
+87        <activity
+87-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:80:9-83:54
+88            android:name="com.example.admin.data.Homepage.Developers"
+88-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:81:13-48
+89            android:label="Developers"
+89-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:82:13-39
+90            android:screenOrientation="fullSensor" />
+90-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:83:13-51
+91        <activity
+91-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:84:9-87:54
+92            android:name="com.example.admin.data.Homepage.Feedback"
+92-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:85:13-46
+93            android:label="Feedback"
+93-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:86:13-37
+94            android:screenOrientation="fullSensor" />
+94-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:87:13-51
+95        <activity
+95-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:88:9-91:54
+96            android:name="com.example.admin.data.Homepage.Websites"
+96-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:89:13-46
+97            android:label="Websites"
+97-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:90:13-37
+98            android:screenOrientation="fullSensor" />
+98-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:91:13-51
+99        <activity
+99-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:92:9-95:54
+100            android:name="com.example.admin.data.examEamcet.Eamcet_Cutoff_Result"
+100-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:93:13-60
+101            android:label="EAMCET Cutoff"
+101-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:94:13-42
+102            android:screenOrientation="fullSensor" />
+102-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:95:13-51
+103        <activity
+103-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:96:9-99:54
+104            android:name="com.example.admin.data.examPgecet.Pgcet_Colleges_Details"
+104-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:97:13-62
+105            android:label="College Information"
+105-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:98:13-48
+106            android:screenOrientation="fullSensor" />
+106-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:99:13-51
+107        <activity
+107-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:100:9-103:54
+108            android:name="com.example.admin.data.examEamcet.Eamcet_Colleges_Details"
+108-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:101:13-63
+109            android:label="College Information"
+109-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:102:13-48
+110            android:screenOrientation="fullSensor" />
+110-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:103:13-51
+111        <activity
+111-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:104:9-107:54
+112            android:name="com.example.admin.data.examEamcet.Select"
+112-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:105:13-46
+113            android:label="Select Branches"
+113-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:106:13-44
+114            android:screenOrientation="fullSensor" />
+114-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:107:13-51
+115        <activity
+115-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:108:9-111:54
+116            android:name="com.example.admin.data.examEamcet.Cutoff_Select_Colleges"
+116-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:109:13-62
+117            android:label="Select Colleges"
+117-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:110:13-44
+118            android:screenOrientation="fullSensor" />
+118-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:111:13-51
+119        <activity
+119-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:112:9-116:59
+120            android:name="com.example.admin.data.Homepage.Login"
+120-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:113:13-43
+121            android:label="Login"
+121-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:114:13-34
+122            android:screenOrientation="fullSensor"
+122-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:115:13-51
+123            android:theme="@style/AppTheme.NoActionBar" />
+123-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:116:13-56
+124        <activity
+124-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:117:9-120:54
+125            android:name="com.example.admin.data.Homepage.Register"
+125-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:118:13-46
+126            android:label="Registration"
+126-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:119:13-41
+127            android:screenOrientation="fullSensor" />
+127-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:120:13-51
+128        <activity
+128-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:121:9-124:54
+129            android:name="com.example.admin.data.Homepage.Survey"
+129-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:122:13-44
+130            android:label="Survey "
+130-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:123:13-36
+131            android:screenOrientation="fullSensor" />
+131-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:124:13-51
+132        <activity
+132-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:125:9-128:54
+133            android:name="com.example.admin.data.Homepage.SurveyViewDetails"
+133-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:126:13-55
+134            android:label="Survey Details"
+134-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:127:13-43
+135            android:screenOrientation="fullSensor" />
+135-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:128:13-51
+136        <activity
+136-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:129:9-132:54
+137            android:name="com.example.admin.data.examPolycet.Polcet_Colleges_Details"
+137-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:130:13-64
+138            android:label="College Information"
+138-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:131:13-48
+139            android:screenOrientation="fullSensor" />
+139-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:132:13-51
+140        <activity
+140-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:133:9-136:54
+141            android:name="com.example.admin.data.examPolycet.SelectBranchesPolycet"
+141-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:134:13-62
+142            android:label="Select Branches"
+142-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:135:13-44
+143            android:screenOrientation="fullSensor" />
+143-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:136:13-51
+144        <activity
+144-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:137:9-140:54
+145            android:name="com.example.admin.data.examPolycet.Cutoff_Select_Colleges_Polycet"
+145-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:138:13-71
+146            android:label="Select Colleges"
+146-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:139:13-44
+147            android:screenOrientation="fullSensor" />
+147-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:140:13-51
+148        <activity
+148-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:141:9-144:54
+149            android:name="com.example.admin.data.examPolycet.Polycet_Cutoff_Result"
+149-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:142:13-62
+150            android:label="POLYCET Cutoff"
+150-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:143:13-43
+151            android:screenOrientation="fullSensor" />
+151-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:144:13-51
+152        <activity
+152-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:145:9-148:54
+153            android:name="com.example.admin.data.examPgecet.SelectBranchesPgcet"
+153-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:146:13-59
+154            android:label="Select Branches"
+154-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:147:13-44
+155            android:screenOrientation="fullSensor" />
+155-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:148:13-51
+156        <activity
+156-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:149:9-152:54
+157            android:name="com.example.admin.data.examPgecet.Cutoff_Select_Colleges_Pgcet"
+157-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:150:13-68
+158            android:label="Select Colleges"
+158-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:151:13-44
+159            android:screenOrientation="fullSensor" />
+159-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:152:13-51
+160        <activity
+160-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:153:9-156:54
+161            android:name="com.example.admin.data.examPgecet.Pgcet_Cutoff_Result"
+161-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:154:13-59
+162            android:label="PGECET Cutoff "
+162-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:155:13-43
+163            android:screenOrientation="fullSensor" />
+163-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:156:13-51
+164        <activity
+164-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:157:9-160:54
+165            android:name="com.example.admin.data.examEamcet.Emcet_Statastics_Graphs"
+165-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:158:13-63
+166            android:label=" "
+166-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:159:13-30
+167            android:screenOrientation="fullSensor" />
+167-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:160:13-51
+168        <activity
+168-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:161:9-164:54
+169            android:name="com.example.admin.data.examEcet.Ecet_Colleges_Details"
+169-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:162:13-59
+170            android:label="College Information"
+170-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:163:13-48
+171            android:screenOrientation="fullSensor" />
+171-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:164:13-51
+172        <activity
+172-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:165:9-168:54
+173            android:name="com.example.admin.data.examEcet.SelectBranchesEcet"
+173-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:166:13-56
+174            android:label="Select Branches"
+174-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:167:13-44
+175            android:screenOrientation="fullSensor" />
+175-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:168:13-51
+176        <activity
+176-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:169:9-172:54
+177            android:name="com.example.admin.data.examEcet.Cutoff_Select_Colleges_Ecet"
+177-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:170:13-65
+178            android:label="Select Colleges"
+178-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:171:13-44
+179            android:screenOrientation="fullSensor" />
+179-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:172:13-51
+180        <activity
+180-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:173:9-176:54
+181            android:name="com.example.admin.data.examEcet.Ecet_Cutoff_Result"
+181-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:174:13-56
+182            android:label="ECET Cutoff"
+182-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:175:13-40
+183            android:screenOrientation="fullSensor" />
+183-->S:\RANKQUEST\RankQuest_App-master\app\src\main\AndroidManifest.xml:176:13-51
+184        <!--
+185             FirebaseMessagingService performs security checks at runtime,
+186             but set to not exported to explicitly avoid allowing another app to call it.
+187        -->
+188        <service
+188-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:28:9-34:19
+189            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+189-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:29:13-82
+190            android:exported="false" >
+190-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:30:13-37
+191            <intent-filter android:priority="-500" >
+191-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:31:13-33:29
+191-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:31:28-51
+192                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+192-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:32:17-78
+192-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:32:25-75
+193            </intent-filter>
+194        </service>
+195        <service
+195-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:35:9-41:19
+196            android:name="com.google.firebase.components.ComponentDiscoveryService"
+196-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:36:13-84
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47e3c3b78cbe28d11243692d9fc33e74\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+198            android:exported="false" >
+198-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:37:13-37
+199            <meta-data
+199-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:38:13-40:85
+200                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+200-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:39:17-119
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\41cd997c635e40edcdd6977455613761\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:40:17-82
+202            <meta-data
+202-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:30:13-32:85
+203                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+203-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:31:17-139
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:32:17-82
+205            <meta-data
+205-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+206                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+206-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+209                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+209-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+211            <meta-data
+211-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c19539b70283b21499a0a95e30087126\firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+212                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+212-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c19539b70283b21499a0a95e30087126\firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c19539b70283b21499a0a95e30087126\firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+214        </service>
+215
+216        <provider
+216-->[com.squareup.picasso:picasso:2.71828] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c06e7c7c8eb9e9f568fb515669cb3f46\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+217            android:name="com.squareup.picasso.PicassoProvider"
+217-->[com.squareup.picasso:picasso:2.71828] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c06e7c7c8eb9e9f568fb515669cb3f46\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+218            android:authorities="com.redants.rankquest.com.squareup.picasso"
+218-->[com.squareup.picasso:picasso:2.71828] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c06e7c7c8eb9e9f568fb515669cb3f46\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+219            android:exported="false" />
+219-->[com.squareup.picasso:picasso:2.71828] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c06e7c7c8eb9e9f568fb515669cb3f46\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+220
+221        <receiver
+221-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:29:9-33:20
+222            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+222-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:30:13-85
+223            android:enabled="true"
+223-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:31:13-35
+224            android:exported="false" >
+224-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:32:13-37
+225        </receiver>
+226        <receiver
+226-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:34:9-42:20
+227            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+227-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:35:13-100
+228            android:enabled="true"
+228-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:36:13-35
+229            android:exported="true"
+229-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:37:13-36
+230            android:permission="android.permission.INSTALL_PACKAGES" >
+230-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:38:13-69
+231            <intent-filter>
+231-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:39:13-41:29
+232                <action android:name="com.android.vending.INSTALL_REFERRER" />
+232-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:40:17-79
+232-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:40:25-76
+233            </intent-filter>
+234        </receiver>
+235
+236        <service
+236-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:44:9-47:40
+237            android:name="com.google.android.gms.measurement.AppMeasurementService"
+237-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:45:13-84
+238            android:enabled="true"
+238-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:46:13-35
+239            android:exported="false" />
+239-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:47:13-37
+240        <service
+240-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:48:9-52:72
+241            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+241-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:49:13-87
+242            android:enabled="true"
+242-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:50:13-35
+243            android:exported="false"
+243-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:51:13-37
+244            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+244-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:52:13-69
+245        <activity
+245-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a1d0e19e13a63974f01df1ece941ad97\play-services-ads-lite-19.0.1\AndroidManifest.xml:29:9-33:64
+246            android:name="com.google.android.gms.ads.AdActivity"
+246-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a1d0e19e13a63974f01df1ece941ad97\play-services-ads-lite-19.0.1\AndroidManifest.xml:30:13-65
+247            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+247-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a1d0e19e13a63974f01df1ece941ad97\play-services-ads-lite-19.0.1\AndroidManifest.xml:31:13-122
+248            android:exported="false"
+248-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a1d0e19e13a63974f01df1ece941ad97\play-services-ads-lite-19.0.1\AndroidManifest.xml:32:13-37
+249            android:theme="@android:style/Theme.Translucent" />
+249-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a1d0e19e13a63974f01df1ece941ad97\play-services-ads-lite-19.0.1\AndroidManifest.xml:33:13-61
+250
+251        <provider
+251-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a1d0e19e13a63974f01df1ece941ad97\play-services-ads-lite-19.0.1\AndroidManifest.xml:35:9-39:39
+252            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+252-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a1d0e19e13a63974f01df1ece941ad97\play-services-ads-lite-19.0.1\AndroidManifest.xml:36:13-76
+253            android:authorities="com.redants.rankquest.mobileadsinitprovider"
+253-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a1d0e19e13a63974f01df1ece941ad97\play-services-ads-lite-19.0.1\AndroidManifest.xml:37:13-73
+254            android:exported="false"
+254-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a1d0e19e13a63974f01df1ece941ad97\play-services-ads-lite-19.0.1\AndroidManifest.xml:38:13-37
+255            android:initOrder="100" />
+255-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a1d0e19e13a63974f01df1ece941ad97\play-services-ads-lite-19.0.1\AndroidManifest.xml:39:13-36
+256
+257        <receiver
+257-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+258            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+258-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+259            android:exported="true"
+259-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+260            android:permission="com.google.android.c2dm.permission.SEND" >
+260-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+261            <intent-filter>
+261-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+262                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+262-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+262-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+263            </intent-filter>
+264        </receiver>
+265
+266        <provider
+266-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47e3c3b78cbe28d11243692d9fc33e74\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+267            android:name="com.google.firebase.provider.FirebaseInitProvider"
+267-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47e3c3b78cbe28d11243692d9fc33e74\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+268            android:authorities="com.redants.rankquest.firebaseinitprovider"
+268-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47e3c3b78cbe28d11243692d9fc33e74\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+269            android:exported="false"
+269-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47e3c3b78cbe28d11243692d9fc33e74\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+270            android:initOrder="100" />
+270-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47e3c3b78cbe28d11243692d9fc33e74\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+271
+272        <activity
+272-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+273            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+273-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+274            android:exported="false"
+274-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+275            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+275-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+276
+277        <meta-data
+277-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a4c5737225694d4e3f9037b3cb9fb26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+278            android:name="com.google.android.gms.version"
+278-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a4c5737225694d4e3f9037b3cb9fb26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+279            android:value="@integer/google_play_services_version" />
+279-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a4c5737225694d4e3f9037b3cb9fb26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+280
+281        <service
+281-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+282            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+282-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+283            android:exported="false" >
+283-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+284            <meta-data
+284-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+285                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+285-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+286                android:value="cct" />
+286-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+287        </service>
+288        <service
+288-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+289            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+289-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+290            android:exported="false"
+290-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+291            android:permission="android.permission.BIND_JOB_SERVICE" >
+291-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+292        </service>
+293
+294        <receiver
+294-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+295            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+295-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+296            android:exported="false" />
+296-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+297    </application>
+298
+299</manifest>

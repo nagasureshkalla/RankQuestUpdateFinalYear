@@ -17,6 +17,7 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_gravity="center"
+            android:visibility="gone"
             android:layout_height="100dp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="10dp"

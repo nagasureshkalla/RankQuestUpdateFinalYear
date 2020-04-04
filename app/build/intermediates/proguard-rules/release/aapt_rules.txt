@@ -1,185 +1,185 @@
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:18
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:86
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:87
 -keep class com.example.admin.data.Homepage.Developers { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:27
--keep class com.example.admin.data.Homepage.DynamicFragments.College_Details { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:30
--keep class com.example.admin.data.Homepage.DynamicFragments.Dynamic_Cutoff_Result { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:29
--keep class com.example.admin.data.Homepage.DynamicFragments.SelectBranches { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:28
--keep class com.example.admin.data.Homepage.DynamicFragments.SelectColleges { <init>(); }
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:31
--keep class com.example.admin.data.Homepage.Dynamic_Class_For_Bottom_Navigation { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:61
--keep class com.example.admin.data.Homepage.Eamcet { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:76
--keep class com.example.admin.data.Homepage.Ecet { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:90
--keep class com.example.admin.data.Homepage.Feedback { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:71
--keep class com.example.admin.data.Homepage.Icet { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:118
--keep class com.example.admin.data.Homepage.Login { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:56
--keep class com.example.admin.data.Homepage.MainActivity { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:37
--keep class com.example.admin.data.Homepage.Nit { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:81
--keep class com.example.admin.data.Homepage.Pgcet { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:66
--keep class com.example.admin.data.Homepage.Polycet { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:123
--keep class com.example.admin.data.Homepage.Register { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:46
--keep class com.example.admin.data.Homepage.SplashScreen { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:127
--keep class com.example.admin.data.Homepage.Survey { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:131
--keep class com.example.admin.data.Homepage.SurveyViewDetails { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:94
--keep class com.example.admin.data.Homepage.Websites { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:114
--keep class com.example.admin.data.examEamcet.Cutoff_Select_Colleges { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:106
--keep class com.example.admin.data.examEamcet.Eamcet_Colleges_Details { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:98
--keep class com.example.admin.data.examEamcet.Eamcet_Cutoff_Result { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:163
--keep class com.example.admin.data.examEamcet.Emcet_Statastics_Graphs { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:110
--keep class com.example.admin.data.examEamcet.Select { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:175
--keep class com.example.admin.data.examEcet.Cutoff_Select_Colleges_Ecet { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:167
--keep class com.example.admin.data.examEcet.Ecet_Colleges_Details { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:179
--keep class com.example.admin.data.examEcet.Ecet_Cutoff_Result { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:36
--keep class com.example.admin.data.examEcet.Ecet_Statastics_Graphs { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:171
--keep class com.example.admin.data.examEcet.SelectBranchesEcet { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:155
--keep class com.example.admin.data.examPgecet.Cutoff_Select_Colleges_Pgcet { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:102
--keep class com.example.admin.data.examPgecet.Pgcet_Colleges_Details { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:159
--keep class com.example.admin.data.examPgecet.Pgcet_Cutoff_Result { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:35
--keep class com.example.admin.data.examPgecet.Pgcet_Statastics_Graphs { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:151
--keep class com.example.admin.data.examPgecet.SelectBranchesPgcet { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:143
--keep class com.example.admin.data.examPolycet.Cutoff_Select_Colleges_Polycet { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:135
--keep class com.example.admin.data.examPolycet.Polcet_Colleges_Details { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:147
--keep class com.example.admin.data.examPolycet.Polycet_Cutoff_Result { <init>(); }
+-keep class com.example.admin.data.Homepage.DynamicFragments.College_Details { <init>(); }
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:34
+-keep class com.example.admin.data.Homepage.DynamicFragments.Dynamic_Cutoff_Result { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:33
+-keep class com.example.admin.data.Homepage.DynamicFragments.SelectBranches { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:32
+-keep class com.example.admin.data.Homepage.DynamicFragments.SelectColleges { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:35
+-keep class com.example.admin.data.Homepage.Dynamic_Class_For_Bottom_Navigation { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:62
+-keep class com.example.admin.data.Homepage.Eamcet { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:77
+-keep class com.example.admin.data.Homepage.Ecet { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:91
+-keep class com.example.admin.data.Homepage.Feedback { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:72
+-keep class com.example.admin.data.Homepage.Icet { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:119
+-keep class com.example.admin.data.Homepage.Login { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:57
+-keep class com.example.admin.data.Homepage.MainActivity { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:41
+-keep class com.example.admin.data.Homepage.Nit { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:82
+-keep class com.example.admin.data.Homepage.Pgcet { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:67
+-keep class com.example.admin.data.Homepage.Polycet { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:124
+-keep class com.example.admin.data.Homepage.Register { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:47
+-keep class com.example.admin.data.Homepage.SplashScreen { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:128
+-keep class com.example.admin.data.Homepage.Survey { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:132
+-keep class com.example.admin.data.Homepage.SurveyViewDetails { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:95
+-keep class com.example.admin.data.Homepage.Websites { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:115
+-keep class com.example.admin.data.examEamcet.Cutoff_Select_Colleges { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:107
+-keep class com.example.admin.data.examEamcet.Eamcet_Colleges_Details { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:99
+-keep class com.example.admin.data.examEamcet.Eamcet_Cutoff_Result { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:164
+-keep class com.example.admin.data.examEamcet.Emcet_Statastics_Graphs { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:111
+-keep class com.example.admin.data.examEamcet.Select { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:176
+-keep class com.example.admin.data.examEcet.Cutoff_Select_Colleges_Ecet { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:168
+-keep class com.example.admin.data.examEcet.Ecet_Colleges_Details { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:180
+-keep class com.example.admin.data.examEcet.Ecet_Cutoff_Result { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:40
+-keep class com.example.admin.data.examEcet.Ecet_Statastics_Graphs { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:172
+-keep class com.example.admin.data.examEcet.SelectBranchesEcet { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:156
+-keep class com.example.admin.data.examPgecet.Cutoff_Select_Colleges_Pgcet { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:103
+-keep class com.example.admin.data.examPgecet.Pgcet_Colleges_Details { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:160
+-keep class com.example.admin.data.examPgecet.Pgcet_Cutoff_Result { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:39
+-keep class com.example.admin.data.examPgecet.Pgcet_Statastics_Graphs { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:152
+-keep class com.example.admin.data.examPgecet.SelectBranchesPgcet { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:144
+-keep class com.example.admin.data.examPolycet.Cutoff_Select_Colleges_Polycet { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:136
+-keep class com.example.admin.data.examPolycet.Polcet_Colleges_Details { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:148
+-keep class com.example.admin.data.examPolycet.Polycet_Cutoff_Result { <init>(); }
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:38
 -keep class com.example.admin.data.examPolycet.Polycet_Statastics_Graphs { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:139
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:140
 -keep class com.example.admin.data.examPolycet.SelectBranchesPolycet { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:280
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:281
 -keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:293
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:294
 -keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:287
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:288
 -keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:244
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:245
 -keep class com.google.android.gms.ads.AdActivity { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:250
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:251
 -keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:271
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:272
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:225
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:226
 -keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:239
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:240
 -keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:220
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:221
 -keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:235
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:236
 -keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:194
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:195
 -keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:256
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:257
 -keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:187
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:188
 -keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:265
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:266
 -keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:215
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:216
 -keep class com.squareup.picasso.PicassoProvider { <init>(); }
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout-watch-v20\abc_alert_dialog_title_material.xml:53
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout-watch-v20\abc_alert_dialog_title_material.xml:53
 # Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\9ca8c58cf333545062d30d93c081ac4e\material-1.2.0-alpha05\res\layout\mtrl_alert_dialog_title.xml:41
 # Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\9ca8c58cf333545062d30d93c081ac4e\material-1.2.0-alpha05\res\layout\mtrl_alert_dialog_actions.xml:45
 # Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\9ca8c58cf333545062d30d93c081ac4e\material-1.2.0-alpha05\res\layout\mtrl_alert_dialog.xml:51
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_alert_dialog_title_material.xml:57
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_alert_dialog_material.xml:52
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_alert_dialog_button_bar_material.xml:43
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_alert_dialog_title_material.xml:57
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_alert_dialog_button_bar_material.xml:43
 -keep class android.widget.Space { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_select_dialog_material.xml:23
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_select_dialog_material.xml:23
 -keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_action_menu_item_layout.xml:17
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_action_menu_item_layout.xml:17
 -keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_expanded_menu_layout.xml:17
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_expanded_menu_layout.xml:17
 -keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_popup_menu_item_layout.xml:17
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_list_menu_item_layout.xml:17
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_cascading_menu_item_layout.xml:20
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_cascading_menu_item_layout.xml:20
 -keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_screen_toolbar.xml:27
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_screen_toolbar.xml:27
 -keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_screen_toolbar.xml:43
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_action_mode_bar.xml:19
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_action_mode_bar.xml:19
 -keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_screen_toolbar.xml:17
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_screen_toolbar.xml:17
 -keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_action_menu_layout.xml:17
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_action_menu_layout.xml:17
 -keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_activity_chooser_view.xml:19
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_activity_chooser_view.xml:19
 -keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
 
 # Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\9ca8c58cf333545062d30d93c081ac4e\material-1.2.0-alpha05\res\layout\mtrl_alert_dialog.xml:17
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_alert_dialog_material.xml:18
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_alert_dialog_material.xml:18
 -keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
 
 # Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\9ca8c58cf333545062d30d93c081ac4e\material-1.2.0-alpha05\res\layout\mtrl_alert_dialog_actions.xml:26
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_alert_dialog_button_bar_material.xml:26
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_alert_dialog_button_bar_material.xml:26
 -keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_screen_content_include.xml:19
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_screen_content_include.xml:19
 -keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
 
 # Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\9ca8c58cf333545062d30d93c081ac4e\material-1.2.0-alpha05\res\layout\mtrl_alert_dialog_title.xml:36
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_alert_dialog_title_material.xml:45
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_alert_dialog_title_material.xml:45
 -keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_screen_simple_overlay_action_mode.xml:23
 -keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_screen_simple.xml:17
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_dialog_title_material.xml:22
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_dialog_title_material.xml:22
 -keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_search_view.xml:75
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_search_view.xml:75
 -keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
 
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\activity_login.xml:14
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_screen_toolbar.xml:36
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_screen_toolbar.xml:36
 -keep class androidx.appcompat.widget.Toolbar { <init>(...); }
 
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_screen_simple_overlay_action_mode.xml:32
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_screen_simple.xml:25
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_screen_simple.xml:25
 -keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
 
 # Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b6af4929e5c18857e99f1008808e49d4\browser-1.0.0\res\layout\browser_actions_context_menu_page.xml:5
@@ -226,12 +226,12 @@
 -keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(...); }
 
 # Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\9ca8c58cf333545062d30d93c081ac4e\material-1.2.0-alpha05\res\layout\mtrl_alert_dialog.xml:40
-# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dfea147dc5be8a25ac526e03005c12ad\appcompat-1.2.0-alpha03\res\layout\abc_alert_dialog_material.xml:41
+# Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\12a2087241f1335e25c6181f8d7ffed0\appcompat-1.2.0-beta01\res\layout\abc_alert_dialog_material.xml:41
 -keep class androidx.core.widget.NestedScrollView { <init>(...); }
 
 # Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\9ca8c58cf333545062d30d93c081ac4e\material-1.2.0-alpha05\res\layout\mtrl_calendar_months.xml:18
 # Referenced at C:\Users\admin\.gradle\caches\transforms-2\files-2.1\9ca8c58cf333545062d30d93c081ac4e\material-1.2.0-alpha05\res\layout\mtrl_calendar_horizontal.xml:29
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\main.xml:25
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\main.xml:26
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\fragment_fragment__reportingcenters__polycet.xml:34
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\fragment_fragment__reportingcenters__pgcet.xml:34
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\fragment_fragment__reportingcenters__ecet.xml:34
@@ -343,7 +343,7 @@
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\loadingdialog.xml:27
 -keep class com.github.ybq.android.spinkit.SpinKitView { <init>(...); }
 
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\main.xml:59
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\main.xml:60
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\activity_websites.xml:29
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\activity_main.xml:422
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\activity_feedback.xml:237
@@ -405,7 +405,7 @@
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\recycle_college_branch_details.xml:11
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\recycle_checklist.xml:7
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\recycle_branches.xml:22
-# Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\main.xml:76
+# Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\main.xml:77
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\fragment_fragment__statatics__polycet.xml:37
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\fragment_fragment__statatics__pgcet.xml:37
 # Referenced at S:\RANKQUEST\RankQuest_App-master\app\src\main\res\layout\fragment_fragment__statatics__ecet.xml:37

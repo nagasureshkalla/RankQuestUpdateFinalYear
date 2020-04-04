@@ -37,10 +37,10 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int notification_action_color_filter = 0x7f0600d0;
-        public static final int notification_icon_bg_color = 0x7f0600d1;
-        public static final int ripple_material_light = 0x7f0600de;
-        public static final int secondary_text_default_material_light = 0x7f0600e1;
+        public static final int notification_action_color_filter = 0x7f0600d2;
+        public static final int notification_icon_bg_color = 0x7f0600d3;
+        public static final int ripple_material_light = 0x7f0600e0;
+        public static final int secondary_text_default_material_light = 0x7f0600e3;
     }
     public static final class dimen {
         private dimen() {}
@@ -152,9 +152,9 @@ public final class R {
         public static final int TextAppearance_Compat_Notification_Line2 = 0x7f12019b;
         public static final int TextAppearance_Compat_Notification_Time = 0x7f12019e;
         public static final int TextAppearance_Compat_Notification_Title = 0x7f1201a0;
-        public static final int Widget_Compat_NotificationActionContainer = 0x7f120287;
-        public static final int Widget_Compat_NotificationActionText = 0x7f120288;
-        public static final int Widget_Support_CoordinatorLayout = 0x7f1202f4;
+        public static final int Widget_Compat_NotificationActionContainer = 0x7f120288;
+        public static final int Widget_Compat_NotificationActionText = 0x7f120289;
+        public static final int Widget_Support_CoordinatorLayout = 0x7f1202f5;
     }
     public static final class styleable {
         private styleable() {}

@@ -85,7 +85,7 @@ public class Feedback extends AppCompatActivity {
             public void onInitializationComplete(InitializationStatus initializationStatus) {
 
             }
-        });;
+        });
         AdView adview=findViewById(R.id.adViewfeedback);
         AdRequest adRequest=new AdRequest.Builder().build();
         adview.loadAd(adRequest);

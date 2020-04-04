@@ -6,6 +6,9 @@ package com.example.admin.data.Homepage;
         import android.widget.ImageView;
 
         import com.example.admin.data.R;
+        import com.google.android.gms.ads.MobileAds;
+        import com.google.android.gms.ads.initialization.InitializationStatus;
+        import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 public class SplashScreen extends Activity {
     ImageView img;
@@ -16,6 +19,7 @@ public class SplashScreen extends Activity {
         setContentView(R.layout.activity_splash_screen);
         img=findViewById(R.id.splash);
 
+        MobileAds.initialize(getApplicationContext(),"ca-app-pub-7470227253711247~4089135355");
 
         splas = new Thread() {
             public void run() {
